@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "gscServer": {
+      "command": "/Users/Hemant/Desktop/strique/mcp-gsc/.venv/bin/python",
+      "args": ["/Users/Hemant/Desktop/strique/mcp-gsc/gsc_server.py"],
+      "env": {
+        "GSC_CREDENTIALS_PATH": "/Users/Hemant/Downloads/service_account_credentials.json",
+        "GSC_SKIP_OAUTH": "true"
+      }
+    },
+    "dataforseo": {
+      "name": "DataForSEO",
+      "description": "Access DataForSEO APIs",
+      "transport": {
+        "type": "stdio"
+      },
+      "env": {
+        "DATAFORSEO_USERNAME": "poojan@strique.io",
+        "DATAFORSEO_PASSWORD": "a9d293a18f4bea53"
+      },
+      "command": "npx",
+      "args": ["dataforseo-mcp-server"]
+    },
+    "gtm-mcp-server": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://gtm-mcp.stape.ai/mcp"]
+    }
+  }
+}

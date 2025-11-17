@@ -1,0 +1,209 @@
+name,description
+list_properties,"
+    Retrieves and returns the user's Search Console properties.
+    "
+add_site,"
+    Add a site to your Search Console properties.
+    
+    Args:
+        site_url: The URL of the site to add (must be exact match e.g. https://example.com, or https://www.example.com, or https://subdomain.example.com/path/, for domain properties use format: sc-domain:example.com)
+    "
+delete_site,"
+    Remove a site from your Search Console properties.
+    
+    Args:
+        site_url: The URL of the site to remove (must be exact match e.g. https://example.com, or https://www.example.com, or https://subdomain.example.com/path/, for domain properties use format: sc-domain:example.com)
+    "
+get_search_analytics,"
+    Get search analytics data for a specific property.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        days: Number of days to look back (default: 28)
+        dimensions: Dimensions to group by (default: query). Options: query, page, device, country, date
+                   You can provide multiple dimensions separated by comma (e.g., ""query,page"")
+    "
+get_site_details,"
+    Get detailed information about a specific Search Console property.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+    "
+get_sitemaps,"
+    List all sitemaps for a specific Search Console property.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+    "
+inspect_url_enhanced,"
+    Enhanced URL inspection to check indexing status and rich results in Google.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match, for domain properties use format: sc-domain:example.com)
+        page_url: The specific URL to inspect
+    "
+batch_url_inspection,"
+    Inspect multiple URLs in batch (within API limits).
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match, for domain properties use format: sc-domain:example.com)
+        urls: List of URLs to inspect, one per line
+    "
+check_indexing_issues,"
+    Check for specific indexing issues across multiple URLs.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match, for domain properties use format: sc-domain:example.com)
+        urls: List of URLs to check, one per line
+    "
+get_performance_overview,"
+    Get a performance overview for a specific property.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        days: Number of days to look back (default: 28)
+    "
+get_advanced_search_analytics,"
+    Get advanced search analytics data with sorting, filtering, and pagination.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        start_date: Start date in YYYY-MM-DD format (defaults to 28 days ago)
+        end_date: End date in YYYY-MM-DD format (defaults to today)
+        dimensions: Dimensions to group by, comma-separated (e.g., ""query,page,device"")
+        search_type: Type of search results (WEB, IMAGE, VIDEO, NEWS, DISCOVER)
+        row_limit: Maximum number of rows to return (max 25000)
+        start_row: Starting row for pagination
+        sort_by: Metric to sort by (clicks, impressions, ctr, position)
+        sort_direction: Sort direction (ascending or descending)
+        filter_dimension: Dimension to filter on (query, page, country, device)
+        filter_operator: Filter operator (contains, equals, notContains, notEquals)
+        filter_expression: Filter expression value
+    "
+compare_search_periods,"
+    Compare search analytics data between two time periods.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        period1_start: Start date for period 1 (YYYY-MM-DD)
+        period1_end: End date for period 1 (YYYY-MM-DD)
+        period2_start: Start date for period 2 (YYYY-MM-DD)
+        period2_end: End date for period 2 (YYYY-MM-DD)
+        dimensions: Dimensions to group by (default: query)
+        limit: Number of top results to compare (default: 10)
+    "
+get_search_by_page_query,"
+    Get search analytics data for a specific page, broken down by query.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        page_url: The specific page URL to analyze
+        days: Number of days to look back (default: 28)
+    "
+list_sitemaps_enhanced,"
+    List all sitemaps for a specific Search Console property with detailed information.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        sitemap_index: Optional sitemap index URL to list child sitemaps
+    "
+get_sitemap_details,"
+    Get detailed information about a specific sitemap.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        sitemap_url: The full URL of the sitemap to inspect
+    "
+submit_sitemap,"
+    Submit a new sitemap or resubmit an existing one to Google.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        sitemap_url: The full URL of the sitemap to submit
+    "
+delete_sitemap,"
+    Delete (unsubmit) a sitemap from Google Search Console.
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        sitemap_url: The full URL of the sitemap to delete
+    "
+manage_sitemaps,"
+    All-in-one tool to manage sitemaps (list, get details, submit, delete).
+    
+    Args:
+        site_url: The URL of the site in Search Console (must be exact match)
+        action: The action to perform (list, details, submit, delete)
+        sitemap_url: The full URL of the sitemap (required for details, submit, delete)
+        sitemap_index: Optional sitemap index URL for listing child sitemaps (only used with 'list' action)
+    "
+get_creator_info,"
+    Provides information about Amin Foroutan, the creator of the MCP-GSC tool.
+    "
+ai_optimization_keyword_data_locations_and_languages,
+ai_optimization_keyword_data_search_volume,
+serp_organic_live_advanced,
+serp_locations,
+serp_youtube_locations,
+serp_youtube_organic_live_advanced,
+serp_youtube_video_info_live_advanced,
+serp_youtube_video_comments_live_advanced,
+serp_youtube_video_subtitles_live_advanced,
+keywords_data_google_ads_search_volume,
+keywords_data_dataforseo_trends_demography,
+keywords_data_dataforseo_trends_subregion_interests,
+keywords_data_dataforseo_trends_explore,
+keywords_data_google_trends_categories,
+keywords_data_google_trends_explore,
+on_page_content_parsing,
+on_page_instant_pages,
+on_page_lighthouse,
+dataforseo_labs_google_ranked_keywords,
+dataforseo_labs_google_competitors_domain,
+dataforseo_labs_google_domain_rank_overview,
+dataforseo_labs_google_keyword_ideas,
+dataforseo_labs_google_related_keywords,
+dataforseo_labs_google_keyword_suggestions,
+dataforseo_labs_google_historical_serp,
+dataforseo_labs_google_serp_competitors,
+dataforseo_labs_bulk_keyword_difficulty,
+dataforseo_labs_google_subdomains,
+dataforseo_labs_google_keyword_overview,
+dataforseo_labs_google_top_searches,
+dataforseo_labs_search_intent,
+dataforseo_labs_google_keywords_for_site,
+dataforseo_labs_google_domain_intersection,
+dataforseo_labs_google_historical_rank_overview,
+dataforseo_labs_google_page_intersection,
+dataforseo_labs_bulk_traffic_estimation,
+dataforseo_labs_available_filters,
+dataforseo_labs_google_historical_keyword_data,
+dataforseo_labs_google_relevant_pages,
+backlinks_backlinks,
+backlinks_anchors,
+backlinks_bulk_backlinks,
+backlinks_bulk_new_lost_referring_domains,
+backlinks_bulk_new_lost_backlinks,
+backlinks_bulk_ranks,
+backlinks_bulk_referring_domains,
+backlinks_bulk_spam_score,
+backlinks_competitors,
+backlinks_domain_intersection,
+backlinks_domain_pages_summary,
+backlinks_domain_pages,
+backlinks_page_intersection,
+backlinks_referring_domains,
+backlinks_referring_networks,
+backlinks_summary,
+backlinks_timeseries_new_lost_summary,
+backlinks_timeseries_summary,
+backlinks_bulk_pages_summary,
+backlinks_available_filters,
+business_data_business_listings_search,
+domain_analytics_whois_overview,
+domain_analytics_whois_available_filters,
+domain_analytics_technologies_domain_technologies,
+domain_analytics_technologies_available_filters,
+content_analysis_search,
+content_analysis_summary,
+content_analysis_phrase_trends,
