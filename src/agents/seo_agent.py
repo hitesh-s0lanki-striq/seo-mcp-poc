@@ -4,6 +4,8 @@ from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
 from langchain_mcp_adapters.client import MultiServerMCPClient
 import os
+import sys
+from pathlib import Path
 
 
 class SEOAgent:
@@ -16,20 +18,25 @@ class SEOAgent:
         
     def get_mcp_client(self):
         """Initialize and return the MCP client with configured servers."""
+        # Get the path to gsc_server.py relative to this file
+        current_dir = Path(__file__).parent
+        project_root = current_dir.parent.parent
+        gsc_server_path = project_root / "src" / "tools" / "gsc_server.py"
+        
+        # Get Python interpreter (use current interpreter)
+        python_interpreter = sys.executable
+        
         return MultiServerMCPClient(
             {
-                # "gscServer": {
-                #     "command": "/Users/Hemant/Desktop/strique/mcp-gsc/.venv/bin/python",
-                #     "args": ["/Users/Hemant/Desktop/strique/mcp-gsc/gsc_server.py"],
-                #     "transport": "stdio",
-                #     "env": {
-                #         "GSC_CREDENTIALS_PATH": os.getenv(
-                #             "GSC_CREDENTIALS_PATH",
-                #             "/Users/Hemant/Downloads/service_account_credentials.json"
-                #         ),
-                #         "GSC_SKIP_OAUTH": "true"
-                #     }
-                # },
+                "gscServer": {
+                    "command": python_interpreter,
+                    "args": [str(gsc_server_path)],
+                    "transport": "stdio",
+                    "env": {
+                        "GSC_CREDENTIALS": os.getenv("GSC_CREDENTIALS", ""),
+                        "GSC_SKIP_OAUTH": os.getenv("GSC_SKIP_OAUTH", "true")
+                    }
+                },
                 "dataforseo": {
                     "transport": "streamable_http",
                     "url": "https://dataforseo-mcp-worker.hitesh-solanki.workers.dev/mcp"
