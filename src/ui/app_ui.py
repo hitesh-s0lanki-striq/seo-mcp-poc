@@ -14,7 +14,7 @@ class AppUI:
         # Initialize agent in session state if not already initialized
         if "seo_agent" not in st.session_state:
             model_name = st.session_state.get("selected_model", "gpt-4o-mini")
-            llm = ChatOpenAI(model=model_name, temperature=0)
+            llm = ChatOpenAI(model=model_name, temperature=0, timeout=120*60) # 2 hrs
             st.session_state.seo_agent = SEOAgent(llm=llm)
         
     def _convert_messages_to_langchain(self, messages):
@@ -55,49 +55,78 @@ class AppUI:
         
         # Stream the agent's response
         async for chunk in st.session_state.seo_agent.stream(langchain_messages):
-            if "messages" in chunk and len(chunk["messages"]) > 0:
-                latest_message = chunk["messages"][-1]
-                
+            messages_in_chunk = chunk.get("messages", [])
+            if not messages_in_chunk:
+                continue
+
+            for current_message in messages_in_chunk:
                 # Handle tool calls - check if message has tool_calls attribute
-                if hasattr(latest_message, "tool_calls") and latest_message.tool_calls:
-                    for tool_call in latest_message.tool_calls:
-                        tool_call_id = tool_call.get("id", "") if isinstance(tool_call, dict) else getattr(tool_call, "id", "")
+                if hasattr(current_message, "tool_calls") and current_message.tool_calls:
+                    for tool_call in current_message.tool_calls:
+                        tool_call_id = (
+                            tool_call.get("id", "")
+                            if isinstance(tool_call, dict)
+                            else getattr(tool_call, "id", "")
+                        )
                         if tool_call_id and tool_call_id not in tool_calls_shown:
                             tool_calls_shown.add(tool_call_id)
-                            tool_name = tool_call.get("name", "unknown") if isinstance(tool_call, dict) else getattr(tool_call, "name", "unknown")
-                            tool_args = tool_call.get("args", {}) if isinstance(tool_call, dict) else getattr(tool_call, "args", {})
-                            
+                            tool_name = (
+                                tool_call.get("name", "unknown")
+                                if isinstance(tool_call, dict)
+                                else getattr(tool_call, "name", "unknown")
+                            )
+                            tool_args = (
+                                tool_call.get("args", {})
+                                if isinstance(tool_call, dict)
+                                else getattr(tool_call, "args", {})
+                            )
+
                             # Create a new thinking step for this tool call
                             step = {
                                 "type": "tool_call",
                                 "tool": tool_name,
                                 "args": tool_args,
                                 "status": "calling",
-                                "result": None
+                                "result": None,
                             }
                             thinking_steps.append(step)
                             tool_call_to_step[tool_call_id] = len(thinking_steps) - 1
-                            
+
                             # Update thinking display
-                            self._update_thinking_display(thinking_placeholder, thinking_steps)
-                
+                            self._update_thinking_display(
+                                thinking_placeholder, thinking_steps
+                            )
+
                 # Handle tool results (ToolMessage)
-                if hasattr(latest_message, "type") and latest_message.type == "tool":
-                    tool_call_id = getattr(latest_message, "tool_call_id", None) if hasattr(latest_message, "tool_call_id") else None
+                if hasattr(current_message, "type") and current_message.type == "tool":
+                    tool_call_id = (
+                        getattr(current_message, "tool_call_id", None)
+                        if hasattr(current_message, "tool_call_id")
+                        else None
+                    )
                     if tool_call_id and tool_call_id in tool_call_to_step:
                         step_idx = tool_call_to_step[tool_call_id]
                         thinking_steps[step_idx]["status"] = "completed"
                         # Store full tool result without truncation
-                        tool_result = latest_message.content if hasattr(latest_message, "content") else str(latest_message)
+                        tool_result = (
+                            current_message.content
+                            if hasattr(current_message, "content")
+                            else str(current_message)
+                        )
                         thinking_steps[step_idx]["result"] = tool_result
-                        self._update_thinking_display(thinking_placeholder, thinking_steps)
-                
+                        self._update_thinking_display(
+                            thinking_placeholder, thinking_steps
+                        )
+
                 # Handle content messages (final AI response)
-                if hasattr(latest_message, "content") and latest_message.content:
+                if hasattr(current_message, "content") and current_message.content:
                     # Only show content if it's from an AI message (not tool message)
-                    message_type = getattr(latest_message, "type", None)
-                    if message_type == "ai" or (not message_type and not hasattr(latest_message, "tool_call_id")):
-                        full_response = latest_message.content
+                    message_type = getattr(current_message, "type", None)
+                    if message_type == "ai" or (
+                        not message_type
+                        and not hasattr(current_message, "tool_call_id")
+                    ):
+                        full_response = current_message.content
                         response_placeholder.markdown(full_response)
         
         # Store thinking steps for later display
@@ -270,6 +299,11 @@ class AppUI:
                 if response:
                     # Clear thinking placeholder
                     thinking_placeholder.empty()
+
+                    tool_warning = getattr(st.session_state.seo_agent, "get_tool_warning", None)
+                    warning_message = tool_warning() if callable(tool_warning) else None
+                    if warning_message:
+                        st.warning(warning_message)
                     
                     # Show thinking process in an expander if there are steps
                     if thinking_steps:
