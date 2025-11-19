@@ -217,7 +217,14 @@ class AppUI:
                                 st.json(parsed_result)
                             except (json.JSONDecodeError, TypeError):
                                 # Use a larger height and allow scrolling for full content
-                                st.text_area("Result:", value=result_text, height=400, disabled=True, label_visibility="collapsed")
+                                st.text_area(
+                                    "Result:",
+                                    value=result_text,
+                                    height=400,
+                                    disabled=True,
+                                    label_visibility="collapsed",
+                                    key=f"thinking_result_{i}",
+                                )
                     
                     if i < len(thinking_steps):
                         st.divider()
@@ -239,9 +246,13 @@ class AppUI:
         # Sidebar configuration
         with st.sidebar:
             st.header("⚙️ Configuration")
-            model_options = ["gpt-4o-mini", "gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"]
+            model_options = [
+                "gpt-5.1",
+                "gpt-5",
+                "gpt-5-mini",
+                "gpt-4.1","gpt-4o-mini", "gpt-4o"]
             default_index = model_options.index(
-                st.session_state.get("selected_model", "gpt-4o-mini")
+                st.session_state.get("selected_model", "gpt-5.1")
             )
             selected_model = st.selectbox(
                 "Model",
