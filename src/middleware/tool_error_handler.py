@@ -8,6 +8,8 @@ from typing import Any, Optional
 
 from langchain.agents.middleware import wrap_tool_call
 from langchain_core.messages import ToolMessage
+from src.utils.tool_usage_tracker import get_tracker
+from src.utils.token_counter import count_tokens_in_result
 
 
 def _get_timeout_seconds() -> Optional[float]:
@@ -25,6 +27,7 @@ def _get_timeout_seconds() -> Optional[float]:
 TOOL_TIMEOUT_SECONDS = _get_timeout_seconds()
 LOG_TOOL_TIMINGS = os.getenv("LOG_TOOL_TIMINGS", "true").lower() in ("1", "true", "yes")
 LOG_TOOL_OUTPUT = os.getenv("LOG_TOOL_OUTPUT", "true").lower() in ("1", "true", "yes")
+LOG_TOOL_TOKENS = os.getenv("LOG_TOOL_TOKENS", "true").lower() in ("1", "true", "yes")
 
 
 def _log_tool_timing(tool_name: str, duration: float, status: str) -> None:
@@ -56,6 +59,14 @@ def _log_tool_output(tool_name: str, result: Any, limit: int = 100) -> None:
     print(f"[tool:{tool_label}] output: {truncated}{suffix}")
 
 
+def _log_tool_tokens(tool_name: str, token_count: int) -> None:
+    """Log the token count for a tool output."""
+    if not LOG_TOOL_TOKENS:
+        return
+    tool_label = tool_name or "unknown_tool"
+    print(f"[tool:{tool_label}] output tokens: {token_count}")
+
+
 @wrap_tool_call
 async def handle_tool_errors(request, handler):
     """
@@ -75,15 +86,25 @@ async def handle_tool_errors(request, handler):
     start_time = time.perf_counter()
     tool_name = request.tool_call.get("name") if request.tool_call else "unknown_tool"
 
+    # Track tool usage
+    tracker = get_tracker()
+
     try:
         if TOOL_TIMEOUT_SECONDS is not None:
             result = await asyncio.wait_for(handler(request), timeout=TOOL_TIMEOUT_SECONDS)
         else:
             result = await handler(request)
 
+        # Count tokens in the result
+        token_count = count_tokens_in_result(result)
+        
+        # Track tool usage with token count
+        tracker.track_tool_call(tool_name, token_count)
+
         duration = time.perf_counter() - start_time
         _log_tool_timing(tool_name, duration, "completed")
         _log_tool_output(tool_name, result)
+        _log_tool_tokens(tool_name, token_count)
         return result
 
     except asyncio.TimeoutError:

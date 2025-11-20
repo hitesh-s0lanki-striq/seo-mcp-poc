@@ -2335,6 +2335,7 @@ dependencies = [
     { name = "openai-agents" },
     { name = "python-dotenv" },
     { name = "streamlit" },
+    { name = "tiktoken" },
 ]
 
 [package.metadata]
@@ -2356,6 +2357,7 @@ requires-dist = [
     { name = "openai-agents", specifier = ">=0.4.2" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "streamlit", specifier = ">=1.28.0" },
+    { name = "tiktoken", specifier = ">=0.5.0" },
 ]
 
 [[package]]
