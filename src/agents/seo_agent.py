@@ -1,4 +1,4 @@
-from src.instructions.seo_agent_instruction import seo_agent_instruction
+from src.instructions.seo_agent_instruction import get_seo_agent_instructions
 from src.middleware.tool_error_handler import handle_tool_errors
 from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
@@ -8,11 +8,10 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
 
-
 class SEOAgent:
     def __init__(self, llm: ChatOpenAI):
         self.name = "SEO Agent"
-        self.description = seo_agent_instruction()
+        self.description = get_seo_agent_instructions()
         self.model = llm
         self._tools = None
         self._agent = None
@@ -121,6 +120,12 @@ class SEOAgent:
     def get_tool_warning(self) -> Optional[str]:
         """Return any warning generated while loading tools."""
         return self._tool_warning
+
+    def update_system_prompt(self, new_prompt: str):
+        """Update the system prompt and invalidate the cached agent."""
+        self.description = new_prompt
+        # Invalidate the cached agent so it will be recreated with the new prompt
+        self._agent = None
 
     async def get_agent(self):
         """Get or create the agent with tools and error handling middleware."""

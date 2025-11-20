@@ -5,6 +5,7 @@ from src.agents.seo_agent import SEOAgent
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 from src.utils.tool_usage_tracker import get_tracker
+from src.instructions.seo_agent_instruction import get_seo_agent_instructions
 
 # Try to import OpenAI error classes - they may be in different locations
 try:
@@ -78,12 +79,19 @@ class AppUI:
         self.title = "🔍 SEO MCP Agent Chat"
         self.description = "Chat with your SEO expert agent powered by DataForSEO and Google Search Console"
         
+        # Initialize default system prompt in session state if not already set
+        if "system_prompt" not in st.session_state:
+            st.session_state.system_prompt = get_seo_agent_instructions()
+        
         # Initialize agent in session state if not already initialized
         if "seo_agent" not in st.session_state:
             try:
-                model_name = st.session_state.get("selected_model", "gpt-4o-mini")
+                model_name = st.session_state.get("selected_model", "gpt-4.1")
                 llm = ChatOpenAI(model=model_name, temperature=0, timeout=120*60) # 2 hrs
-                st.session_state.seo_agent = SEOAgent(llm=llm)
+                agent = SEOAgent(llm=llm)
+                # Set the system prompt from session state
+                agent.update_system_prompt(st.session_state.system_prompt)
+                st.session_state.seo_agent = agent
             except AuthenticationError as e:
                 st.error(f"🔐 **Authentication Error**: Invalid OpenAI API key. Please check your API key in the environment variables.\n\nError details: {str(e)}")
                 st.stop()
@@ -150,17 +158,32 @@ class AppUI:
             else:
                 raise Exception(f"❌ **Error**: {str(e)}\n\nPlease try again or contact support if the issue persists.")
     
-    async def _stream_message(self, user_message: str, thinking_placeholder, response_placeholder):
+    async def _stream_message(
+        self,
+        user_message: str,
+        thinking_placeholder,
+        response_placeholder,
+        spinner_placeholder=None,
+        prev_assistant_content: str | None = None,
+    ):
         """Stream agent responses and update the UI in real-time with thinking process."""
         try:
+            # Clear placeholders at the start to prevent showing previous content
+            if response_placeholder:
+                response_placeholder.empty()
+            if thinking_placeholder:
+                thinking_placeholder.empty()
+            
             # Convert messages to LangChain format
+            # Note: st.session_state.messages already includes the new user message,
+            # so we don't need to append it again
             langchain_messages = self._convert_messages_to_langchain(st.session_state.messages)
-            langchain_messages.append(HumanMessage(content=user_message))
             
             full_response = ""
             thinking_steps = []
             tool_calls_shown = set()
             tool_call_to_step = {}  # Map tool_call_id to step index
+            spinner_shown = False
             
             # Stream the agent's response
             async for chunk in st.session_state.seo_agent.stream(langchain_messages):
@@ -168,8 +191,10 @@ class AppUI:
                 if not messages_in_chunk:
                     continue
 
+                # ✅ Process ALL messages (so tool calls & tool results are seen),
+                #    but we'll be smart about AI messages to avoid replaying old answers
                 for current_message in messages_in_chunk:
-                    # Handle tool calls - check if message has tool_calls attribute
+                    # --- TOOL CALLS ---
                     if hasattr(current_message, "tool_calls") and current_message.tool_calls:
                         for tool_call in current_message.tool_calls:
                             tool_call_id = (
@@ -190,7 +215,6 @@ class AppUI:
                                     else getattr(tool_call, "args", {})
                                 )
 
-                                # Create a new thinking step for this tool call
                                 step = {
                                     "type": "tool_call",
                                     "tool": tool_name,
@@ -201,12 +225,12 @@ class AppUI:
                                 thinking_steps.append(step)
                                 tool_call_to_step[tool_call_id] = len(thinking_steps) - 1
 
-                                # Update thinking display
-                                self._update_thinking_display(
-                                    thinking_placeholder, thinking_steps
-                                )
+                                if thinking_placeholder:
+                                    self._update_thinking_display(
+                                        thinking_placeholder, thinking_steps
+                                    )
 
-                    # Handle tool results (ToolMessage)
+                    # --- TOOL RESULTS ---
                     if hasattr(current_message, "type") and current_message.type == "tool":
                         tool_call_id = (
                             getattr(current_message, "tool_call_id", None)
@@ -216,45 +240,51 @@ class AppUI:
                         if tool_call_id and tool_call_id in tool_call_to_step:
                             step_idx = tool_call_to_step[tool_call_id]
                             thinking_steps[step_idx]["status"] = "completed"
-                            # Store full tool result without truncation
                             tool_result = (
                                 current_message.content
                                 if hasattr(current_message, "content")
                                 else str(current_message)
                             )
                             thinking_steps[step_idx]["result"] = tool_result
-                            self._update_thinking_display(
-                                thinking_placeholder, thinking_steps
-                            )
-                            
-                            # Update sidebar stats in real-time when tool completes
-                            # This happens after token counting in the middleware
-                            # Note: Streamlit sidebar updates during streaming may be limited,
-                            # but we try to update it here for real-time feedback
+
+                            if thinking_placeholder:
+                                self._update_thinking_display(
+                                    thinking_placeholder, thinking_steps
+                                )
+
                             if "stats_placeholder" in st.session_state:
                                 try:
-                                    # Force update the stats display
-                                    self._display_tool_usage_stats(st.session_state.stats_placeholder)
-                                except Exception as e:
-                                    # Log error but don't interrupt streaming
-                                    # Sidebar updates during streaming can be unreliable in Streamlit
+                                    self._display_tool_usage_stats(
+                                        st.session_state.stats_placeholder
+                                    )
+                                except Exception:
                                     pass
 
-                    # Handle content messages (final AI response)
+                    # --- AI CONTENT ---
                     if hasattr(current_message, "content") and current_message.content:
-                        # Only show content if it's from an AI message (not tool message)
                         message_type = getattr(current_message, "type", None)
                         if message_type == "ai" or (
-                            not message_type
-                            and not hasattr(current_message, "tool_call_id")
+                            not message_type and not hasattr(current_message, "tool_call_id")
                         ):
-                            full_response = current_message.content
-                            response_placeholder.markdown(full_response)
-            
-            # Store thinking steps for later display
-            if thinking_steps:
-                st.session_state[f"thinking_{len(st.session_state.messages)}"] = thinking_steps
-            
+                            content = current_message.content
+                            
+                            # ⛔ Skip AI messages that are just the previous turn's final answer
+                            if prev_assistant_content and content == prev_assistant_content:
+                                continue
+                            
+                            # ⛔ Skip if it's identical to what we already rendered in this turn
+                            if content == full_response:
+                                continue
+                            
+                            # ✅ Now it's genuinely new content for this turn
+                            if spinner_placeholder and not spinner_shown:
+                                spinner_placeholder.empty()
+                                spinner_shown = True
+
+                            full_response = content
+                            if response_placeholder:
+                                response_placeholder.markdown(full_response)
+
             # Final update of sidebar stats after streaming completes
             if "stats_placeholder" in st.session_state:
                 try:
@@ -262,29 +292,55 @@ class AppUI:
                 except Exception:
                     pass
             
+            # Clear spinner if it's still showing
+            if spinner_placeholder and not spinner_shown:
+                spinner_placeholder.empty()
+            
             # Return the final response and thinking steps
-            return full_response if full_response else "I apologize, but I couldn't generate a response. Please try again.", thinking_steps
+            if not full_response:
+                full_response = "I apologize, but I couldn't generate a response. Please try again."
+            return full_response, thinking_steps
+
         except AuthenticationError as e:
+            if spinner_placeholder:
+                spinner_placeholder.empty()
             error_msg = f"🔐 **Authentication Error**: Invalid OpenAI API key. Please check your API key in the environment variables.\n\nError details: {str(e)}"
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
         except RateLimitError as e:
+            if spinner_placeholder:
+                spinner_placeholder.empty()
             error_msg = f"⏱️ **Rate Limit Error**: You've exceeded your OpenAI API rate limit. Please wait a moment and try again.\n\nError details: {str(e)}"
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
         except APITimeoutError as e:
+            if spinner_placeholder:
+                spinner_placeholder.empty()
             error_msg = f"⏰ **Timeout Error**: The request to OpenAI timed out. Please try again with a simpler query.\n\nError details: {str(e)}"
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
         except APIConnectionError as e:
+            if spinner_placeholder:
+                spinner_placeholder.empty()
             error_msg = f"🌐 **Connection Error**: Unable to connect to OpenAI API. Please check your internet connection.\n\nError details: {str(e)}"
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
         except APIError as e:
+            if spinner_placeholder:
+                spinner_placeholder.empty()
             error_msg = f"⚠️ **OpenAI API Error**: {str(e)}\n\nPlease try again or check your API configuration."
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
         except Exception as e:
+            # Clear spinner on error
+            if spinner_placeholder:
+                spinner_placeholder.empty()
+            
             # Check if it's an OpenAI error by examining the error
             is_openai_err, error_type = _is_openai_error(e)
             
@@ -300,13 +356,14 @@ class AppUI:
                 else:
                     error_msg = f"⚠️ **OpenAI API Error**: {str(e)}\n\nPlease try again or check your API configuration."
             elif "**" in str(e):
-                # Already a formatted error message
                 error_msg = str(e)
             else:
                 error_msg = f"❌ **Error**: {str(e)}\n\nPlease try again or contact support if the issue persists."
             
-            response_placeholder.error(error_msg)
+            if response_placeholder:
+                response_placeholder.error(error_msg)
             return error_msg, []
+
     
     def _update_thinking_display(self, placeholder, thinking_steps):
         """Update the thinking process display with all steps during streaming."""
@@ -513,10 +570,14 @@ class AppUI:
                 "gpt-5.1",
                 "gpt-5",
                 "gpt-5-mini",
-                "gpt-4.1","gpt-4o-mini", "gpt-4o"]
-            default_index = model_options.index(
-                st.session_state.get("selected_model", "gpt-5.1")
-            )
+                "gpt-4.1", "gpt-4o-mini", "gpt-4o"
+            ]
+            default_model = st.session_state.get("selected_model", "gpt-4.1")
+            try:
+                default_index = model_options.index(default_model)
+            except ValueError:
+                default_index = model_options.index("gpt-4.1")
+
             selected_model = st.selectbox(
                 "Model",
                 model_options,
@@ -529,7 +590,10 @@ class AppUI:
                 try:
                     st.session_state.selected_model = selected_model
                     llm = ChatOpenAI(model=selected_model, temperature=0, timeout=120*60)
-                    st.session_state.seo_agent = SEOAgent(llm=llm)
+                    agent = SEOAgent(llm=llm)
+                    # Set the system prompt from session state
+                    agent.update_system_prompt(st.session_state.system_prompt)
+                    st.session_state.seo_agent = agent
                     st.success(f"✅ Model changed to {selected_model}")
                 except AuthenticationError as e:
                     st.error(f"🔐 **Authentication Error**: Invalid OpenAI API key. Please check your API key in the environment variables.\n\nError details: {str(e)}")
@@ -539,13 +603,52 @@ class AppUI:
                     st.error(f"❌ **Error changing model**: {str(e)}\n\nPlease check your configuration and try again.")
             
             st.divider()
+            
+            # System Prompt Editor
+            st.subheader("📝 System Prompt")
+            with st.expander("Edit System Prompt", expanded=False):
+                default_prompt = get_seo_agent_instructions()
+                
+                # Text area for editing system prompt
+                edited_prompt = st.text_area(
+                    "System Prompt:",
+                    value=st.session_state.system_prompt,
+                    height=300,
+                    help="Customize the system prompt that guides the agent's behavior. The default is loaded from the instruction file.",
+                    key="system_prompt_editor"
+                )
+                
+                # Buttons for managing system prompt
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("💾 Save & Apply", use_container_width=True, key="save_system_prompt"):
+                        if edited_prompt.strip():
+                            st.session_state.system_prompt = edited_prompt.strip()
+                            # Update the agent's system prompt and invalidate cache
+                            st.session_state.seo_agent.update_system_prompt(edited_prompt.strip())
+                            st.success("✅ System prompt updated! The agent will use this prompt for new conversations.")
+                        else:
+                            st.error("❌ System prompt cannot be empty!")
+                
+                with col2:
+                    if st.button("🔄 Reset to Default", use_container_width=True, key="reset_system_prompt"):
+                        st.session_state.system_prompt = default_prompt
+                        # Update the agent's system prompt and invalidate cache
+                        st.session_state.seo_agent.update_system_prompt(default_prompt)
+                        st.success("✅ System prompt reset to default!")
+                        st.rerun()
+                
+                # Show character count
+                char_count = len(edited_prompt)
+                st.caption(f"Character count: {char_count:,}")
+            
+            st.divider()
             if st.button("🗑️ Clear Chat History"):
                 st.session_state.messages = []
                 st.rerun()
             
             # Display tool usage statistics (only when tools have been used)
             st.divider()
-            # Create a placeholder for stats that can be updated in real-time
             if "stats_placeholder" not in st.session_state:
                 st.session_state.stats_placeholder = st.empty()
             self._display_tool_usage_stats(st.session_state.stats_placeholder)
@@ -558,65 +661,70 @@ class AppUI:
         for message in st.session_state.messages:
             with st.chat_message(message["role"]):
                 st.markdown(message["content"])
-
-        # Chat input
-        if prompt := st.chat_input("Ask me anything about SEO"):
-            # Add user message to chat history
-            st.session_state.messages.append({"role": "user", "content": prompt})
-            with st.chat_message("user"):
-                st.markdown(prompt)
                 
-            # Show assistant response with streaming
+        # Chat input at the bottom
+        chat_input = st.chat_input("Ask me anything about SEO")
+
+        if chat_input:
+            # 🔎 Find previous assistant message content (if any), BEFORE this turn
+            prev_assistant_content = None
+            for msg in reversed(st.session_state.messages):
+                if msg["role"] == "assistant":
+                    prev_assistant_content = msg["content"]
+                    break
+
+            # 1) Save + show user message
+            st.session_state.messages.append({"role": "user", "content": chat_input})
+            with st.chat_message("user"):
+                st.markdown(chat_input)
+
+            # 2) Assistant message block with three placeholders:
+            #    - spinner (top)
+            #    - thinking (middle)
+            #    - final response (bottom)
             with st.chat_message("assistant"):
-                # Create placeholders for thinking and response
+                spinner_placeholder = st.empty()
                 thinking_placeholder = st.empty()
                 response_placeholder = st.empty()
-                
-                try:
-                    # Stream the message asynchronously
-                    result = self._run_async(
-                        self._stream_message(prompt, thinking_placeholder, response_placeholder)
-                    )
-                    
-                    # Unpack result (response, thinking_steps)
-                    if isinstance(result, tuple):
-                        response, thinking_steps = result
-                    else:
-                        response = result
-                        thinking_steps = []
-                    
-                    # After streaming completes, show final layout
-                    if response:
-                        # Clear thinking placeholder
-                        thinking_placeholder.empty()
 
-                        # Check if response is an error message (starts with error emoji or contains **)
-                        is_error = response.startswith(("🔐", "⏱️", "⏰", "🌐", "⚠️", "❌")) or "**" in response
-                        
-                        if not is_error:
-                            tool_warning = getattr(st.session_state.seo_agent, "get_tool_warning", None)
-                            warning_message = tool_warning() if callable(tool_warning) else None
-                            if warning_message:
-                                st.warning(warning_message)
-                            
-                            # Show thinking process in an expander if there are steps
-                            if thinking_steps:
-                                with st.expander("🤔 View Agent Thinking Process", expanded=False):
-                                    st.caption("See the tools and reasoning steps the agent used to generate this response")
-                                    self._display_thinking_steps(thinking_steps)
-                            
-                            # Show final response prominently with a divider
-                            if thinking_steps:
-                                st.divider()
-                            response_placeholder.markdown(response)
-                        else:
-                            # Error message already displayed in _stream_message
-                            pass
-                    
-                    # Add assistant response to chat history (even if it's an error)
-                    st.session_state.messages.append({"role": "assistant", "content": response})
+                # initial spinner text
+                with spinner_placeholder:
+                    st.markdown("🤔 AI is thinking...")
+
+                try:
+                    # ✅ Pass prev_assistant_content into the stream function
+                    response, thinking_steps = self._run_async(
+                        self._stream_message(
+                            chat_input,
+                            thinking_placeholder,
+                            response_placeholder,
+                            spinner_placeholder,
+                            prev_assistant_content,
+                        )
+                    )
+
+                    # 3) Ensure final response text is there (if stream didn't already print)
+                    if response and response_placeholder:
+                        response_placeholder.markdown(response)
+
+                    # 4) Save assistant response for future turns
+                    st.session_state.messages.append(
+                        {"role": "assistant", "content": response}
+                    )
+
+                    # 5) Optional: show full thinking steps in an expander
+                    if thinking_steps:
+                        with st.expander("🧠 Agent thinking details", expanded=False):
+                            self._display_thinking_steps(thinking_steps)
+
                 except Exception as e:
-                    # Fallback error handling if _stream_message doesn't catch it
-                    error_msg = f"❌ **Unexpected Error**: {str(e)}\n\nPlease try again or contact support if the issue persists."
-                    response_placeholder.error(error_msg)
-                    st.session_state.messages.append({"role": "assistant", "content": error_msg})
+                    spinner_placeholder.empty()
+                    err_msg = f"❌ **Error**: {str(e)}\n\nPlease try again or contact support if the issue persists."
+                    response_placeholder.error(err_msg)
+                    st.session_state.messages.append(
+                        {"role": "assistant", "content": err_msg}
+                    )
+
+
+                    
+                    
