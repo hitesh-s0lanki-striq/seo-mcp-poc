@@ -1,0 +1,154 @@
+{
+  "tool_name": "dataforseo_labs_google_historical_rank_overview",
+  "timestamp": "2025-11-21 16:31:52",
+  "data": {
+    "id": "11211301-1233-0406-0000-030fb82973c7",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 11,
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 2,
+            "pos_51_60": 2,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 664.062,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 13,
+            "is_up": 1,
+            "is_down": 10,
+            "is_lost": 27
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 10,
+        "metrics": {
+          "organic": {
+            "pos_21_30": 5,
+            "pos_31_40": 1,
+            "pos_41_50": 4,
+            "pos_51_60": 3,
+            "pos_61_70": 2,
+            "pos_71_80": 2,
+            "pos_81_90": 1,
+            "etv": 429.744,
+            "count": 18,
+            "estimated_paid_traffic_cost": 19.667,
+            "is_new": 7,
+            "is_up": 3,
+            "is_down": 6,
+            "is_lost": 31
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 9,
+        "metrics": {
+          "organic": {
+            "pos_11_20": 1,
+            "pos_21_30": 5,
+            "pos_31_40": 2,
+            "pos_41_50": 8,
+            "pos_51_60": 6,
+            "pos_61_70": 1,
+            "etv": 421.362,
+            "count": 23,
+            "estimated_paid_traffic_cost": 218.192,
+            "is_new": 18,
+            "is_up": 1,
+            "is_down": 3,
+            "is_lost": 55
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 8,
+        "metrics": {
+          "organic": {
+            "pos_11_20": 1,
+            "pos_21_30": 7,
+            "pos_31_40": 2,
+            "pos_41_50": 8,
+            "pos_51_60": 8,
+            "pos_61_70": 3,
+            "etv": 429.099,
+            "count": 29,
+            "estimated_paid_traffic_cost": 25.048,
+            "is_new": 23,
+            "is_up": 2,
+            "is_down": 2,
+            "is_lost": 65
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 7,
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 3,
+            "pos_41_50": 6,
+            "pos_51_60": 8,
+            "pos_61_70": 5,
+            "pos_71_80": 3,
+            "pos_81_90": 1,
+            "pos_91_100": 1,
+            "etv": 458.115,
+            "count": 29,
+            "estimated_paid_traffic_cost": 27.07,
+            "is_new": 22,
+            "is_down": 7,
+            "is_lost": 68
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "year": 2025,
+        "month": 6,
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 7,
+            "pos_51_60": 11,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 3,
+            "pos_91_100": 2,
+            "etv": 762.426,
+            "count": 38,
+            "estimated_paid_traffic_cost": 232.226,
+            "is_new": 17,
+            "is_up": 4,
+            "is_down": 16,
+            "is_lost": 38
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en"
+  },
+  "token_count": 1306
+}

@@ -1,0 +1,39 @@
+{
+  "tool_name": "dataforseo_labs_google_subdomains",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0384-0000-5fabb0ff2f0c",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "subdomain": "www.strique.io",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 2,
+            "pos_51_60": 2,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 664.062,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 13,
+            "is_up": 1,
+            "is_down": 10
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 287
+}

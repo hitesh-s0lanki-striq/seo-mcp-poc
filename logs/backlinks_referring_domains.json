@@ -1,0 +1,1375 @@
+{
+  "tool_name": "backlinks_referring_domains",
+  "timestamp": "2025-11-21 16:31:50",
+  "data": {
+    "id": "11211301-1233-0273-0000-22149a4b256c",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "chinaz.tv",
+        "rank": 157,
+        "backlinks": 127,
+        "first_seen": "2025-08-01 02:16:51 +00:00",
+        "backlinks_spam_score": 24,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 127,
+        "referring_links_tld": {
+          "tv": 127
+        },
+        "referring_links_types": {
+          "anchor": 127
+        },
+        "referring_links_platform_types": {
+          "unknown": 118,
+          "ecommerce": 9
+        },
+        "referring_links_semantic_locations": {
+          "": 127
+        },
+        "referring_links_countries": {
+          "TV": 127
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aieep.ai",
+        "rank": 124,
+        "backlinks": 52,
+        "first_seen": "2025-09-30 17:06:18 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 46,
+        "referring_pages_nofollow": 40,
+        "referring_links_tld": {
+          "ai": 46
+        },
+        "referring_links_types": {
+          "anchor": 46
+        },
+        "referring_links_attributes": {
+          "external": 40,
+          "nofollow": 40,
+          "noopener": 40
+        },
+        "referring_links_platform_types": {
+          "unknown": 46
+        },
+        "referring_links_semantic_locations": {
+          "article": 40,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "AI": 46
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "saashub.com",
+        "rank": 87,
+        "backlinks": 60,
+        "first_seen": "2025-05-04 06:34:08 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 58,
+        "referring_pages_nofollow": 48,
+        "referring_links_tld": {
+          "com": 58
+        },
+        "referring_links_types": {
+          "anchor": 53,
+          "image": 5
+        },
+        "referring_links_attributes": {
+          "nofollow": 48,
+          "ugc": 7,
+          "noopener": 1,
+          "noreferrer": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 58
+        },
+        "referring_links_semantic_locations": {
+          "": 28,
+          "section": 24,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "US": 58
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "producthunt.com",
+        "rank": 81,
+        "backlinks": 11,
+        "first_seen": "2025-02-13 03:33:43 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 6,
+        "referring_links_tld": {
+          "com": 6
+        },
+        "referring_links_types": {
+          "anchor": 5,
+          "redirect": 1
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 3,
+          "main": 2,
+          "": 1
+        },
+        "referring_links_countries": {
+          "US": 6
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "creati.ai",
+        "rank": 78,
+        "backlinks": 45,
+        "first_seen": "2025-09-16 08:41:54 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 33,
+        "referring_links_tld": {
+          "ai": 33
+        },
+        "referring_links_types": {
+          "anchor": 33
+        },
+        "referring_links_attributes": {
+          "noopener": 12,
+          "noreferrer": 12,
+          "external": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 33
+        },
+        "referring_links_semantic_locations": {
+          "section": 33
+        },
+        "referring_links_countries": {
+          "AI": 33
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "digimaze.io",
+        "rank": 75,
+        "backlinks": 11,
+        "first_seen": "2025-08-20 08:16:51 +00:00",
+        "backlinks_spam_score": 2,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 4,
+        "referring_links_tld": {
+          "io": 4
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "noopener": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "": 4
+        },
+        "referring_links_countries": {
+          "IO": 4
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "2agi.net",
+        "rank": 63,
+        "backlinks": 25,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 20,
+        "referring_links_tld": {
+          "net": 20
+        },
+        "referring_links_types": {
+          "anchor": 20
+        },
+        "referring_links_attributes": {
+          "noopener": 20,
+          "noreferrer": 20
+        },
+        "referring_links_platform_types": {
+          "unknown": 20
+        },
+        "referring_links_semantic_locations": {
+          "main": 20
+        },
+        "referring_links_countries": {
+          "US": 12,
+          "": 8
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "toolify.ai",
+        "rank": 63,
+        "backlinks": 88,
+        "first_seen": "2025-01-26 01:48:01 +00:00",
+        "backlinks_spam_score": 13,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 76,
+        "referring_pages_nofollow": 72,
+        "referring_links_tld": {
+          "ai": 76
+        },
+        "referring_links_types": {
+          "anchor": 76
+        },
+        "referring_links_attributes": {
+          "nofollow": 72
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 50,
+          "unknown": 26,
+          "message-boards": 2,
+          "organization": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 60,
+          "section": 16
+        },
+        "referring_links_countries": {
+          "AI": 76
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aimatch.pro",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aiseekify.com",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "broken_backlinks": 1,
+        "broken_pages": 1,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 2,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 2
+        },
+        "referring_links_types": {
+          "anchor": 2
+        },
+        "referring_links_attributes": {
+          "noopener": 2,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 2
+        },
+        "referring_links_countries": {
+          "": 2
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 2841
+}
+{
+  "tool_name": "backlinks_referring_domains",
+  "timestamp": "2025-12-01 15:23:40",
+  "data": {
+    "id": "12011153-1210-0273-0000-972c72bd3bcc",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "chinaz.tv",
+        "rank": 158,
+        "backlinks": 129,
+        "first_seen": "2025-08-01 02:16:51 +00:00",
+        "backlinks_spam_score": 24,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 129,
+        "referring_links_tld": {
+          "tv": 129
+        },
+        "referring_links_types": {
+          "anchor": 129
+        },
+        "referring_links_platform_types": {
+          "unknown": 120,
+          "ecommerce": 9
+        },
+        "referring_links_semantic_locations": {
+          "": 129
+        },
+        "referring_links_countries": {
+          "TV": 129
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aieep.ai",
+        "rank": 124,
+        "backlinks": 52,
+        "first_seen": "2025-09-30 17:06:18 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 46,
+        "referring_pages_nofollow": 40,
+        "referring_links_tld": {
+          "ai": 46
+        },
+        "referring_links_types": {
+          "anchor": 46
+        },
+        "referring_links_attributes": {
+          "external": 40,
+          "nofollow": 40,
+          "noopener": 40
+        },
+        "referring_links_platform_types": {
+          "unknown": 46
+        },
+        "referring_links_semantic_locations": {
+          "article": 40,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "AI": 46
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "saashub.com",
+        "rank": 87,
+        "backlinks": 60,
+        "first_seen": "2025-05-04 06:34:08 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 58,
+        "referring_pages_nofollow": 48,
+        "referring_links_tld": {
+          "com": 58
+        },
+        "referring_links_types": {
+          "anchor": 53,
+          "image": 5
+        },
+        "referring_links_attributes": {
+          "nofollow": 48,
+          "ugc": 7,
+          "noopener": 1,
+          "noreferrer": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 58
+        },
+        "referring_links_semantic_locations": {
+          "": 28,
+          "section": 24,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "US": 58
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "producthunt.com",
+        "rank": 81,
+        "backlinks": 11,
+        "first_seen": "2025-02-13 03:33:43 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 6,
+        "referring_links_tld": {
+          "com": 6
+        },
+        "referring_links_types": {
+          "anchor": 5,
+          "redirect": 1
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 3,
+          "main": 2,
+          "": 1
+        },
+        "referring_links_countries": {
+          "US": 6
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "creati.ai",
+        "rank": 80,
+        "backlinks": 45,
+        "first_seen": "2025-09-16 08:41:54 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 33,
+        "referring_links_tld": {
+          "ai": 33
+        },
+        "referring_links_types": {
+          "anchor": 33
+        },
+        "referring_links_attributes": {
+          "noopener": 12,
+          "noreferrer": 12,
+          "external": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 27,
+          "ecommerce": 6
+        },
+        "referring_links_semantic_locations": {
+          "section": 33
+        },
+        "referring_links_countries": {
+          "AI": 33
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "digimaze.io",
+        "rank": 75,
+        "backlinks": 11,
+        "first_seen": "2025-08-20 08:16:51 +00:00",
+        "backlinks_spam_score": 2,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 4,
+        "referring_links_tld": {
+          "io": 4
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "noopener": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "": 4
+        },
+        "referring_links_countries": {
+          "IO": 4
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "toolify.ai",
+        "rank": 72,
+        "backlinks": 103,
+        "first_seen": "2025-01-26 01:48:01 +00:00",
+        "backlinks_spam_score": 13,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 88,
+        "referring_pages_nofollow": 83,
+        "referring_links_tld": {
+          "ai": 88
+        },
+        "referring_links_types": {
+          "anchor": 88
+        },
+        "referring_links_attributes": {
+          "nofollow": 83
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 56,
+          "unknown": 32,
+          "message-boards": 8,
+          "organization": 8
+        },
+        "referring_links_semantic_locations": {
+          "": 66,
+          "section": 22
+        },
+        "referring_links_countries": {
+          "AI": 88
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "2agi.net",
+        "rank": 63,
+        "backlinks": 25,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 20,
+        "referring_links_tld": {
+          "net": 20
+        },
+        "referring_links_types": {
+          "anchor": 20
+        },
+        "referring_links_attributes": {
+          "noopener": 20,
+          "noreferrer": 20
+        },
+        "referring_links_platform_types": {
+          "unknown": 20
+        },
+        "referring_links_semantic_locations": {
+          "main": 20
+        },
+        "referring_links_countries": {
+          "US": 12,
+          "": 8
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aimatch.pro",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aiseekify.com",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "broken_backlinks": 1,
+        "broken_pages": 1,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 2,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 2
+        },
+        "referring_links_types": {
+          "anchor": 2
+        },
+        "referring_links_attributes": {
+          "noopener": 2,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 2
+        },
+        "referring_links_countries": {
+          "": 2
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 2847
+}
+{
+  "tool_name": "backlinks_referring_domains",
+  "timestamp": "2025-12-01 15:29:29",
+  "data": {
+    "id": "12011159-1210-0273-0000-07281b47dfac",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "chinaz.tv",
+        "rank": 158,
+        "backlinks": 129,
+        "first_seen": "2025-08-01 02:16:51 +00:00",
+        "backlinks_spam_score": 24,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 129,
+        "referring_links_tld": {
+          "tv": 129
+        },
+        "referring_links_types": {
+          "anchor": 129
+        },
+        "referring_links_platform_types": {
+          "unknown": 120,
+          "ecommerce": 9
+        },
+        "referring_links_semantic_locations": {
+          "": 129
+        },
+        "referring_links_countries": {
+          "TV": 129
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aieep.ai",
+        "rank": 124,
+        "backlinks": 52,
+        "first_seen": "2025-09-30 17:06:18 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 46,
+        "referring_pages_nofollow": 40,
+        "referring_links_tld": {
+          "ai": 46
+        },
+        "referring_links_types": {
+          "anchor": 46
+        },
+        "referring_links_attributes": {
+          "external": 40,
+          "nofollow": 40,
+          "noopener": 40
+        },
+        "referring_links_platform_types": {
+          "unknown": 46
+        },
+        "referring_links_semantic_locations": {
+          "article": 40,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "AI": 46
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "saashub.com",
+        "rank": 87,
+        "backlinks": 60,
+        "first_seen": "2025-05-04 06:34:08 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 58,
+        "referring_pages_nofollow": 48,
+        "referring_links_tld": {
+          "com": 58
+        },
+        "referring_links_types": {
+          "anchor": 53,
+          "image": 5
+        },
+        "referring_links_attributes": {
+          "nofollow": 48,
+          "ugc": 7,
+          "noopener": 1,
+          "noreferrer": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 58
+        },
+        "referring_links_semantic_locations": {
+          "": 28,
+          "section": 24,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "US": 58
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "producthunt.com",
+        "rank": 81,
+        "backlinks": 11,
+        "first_seen": "2025-02-13 03:33:43 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 6,
+        "referring_links_tld": {
+          "com": 6
+        },
+        "referring_links_types": {
+          "anchor": 5,
+          "redirect": 1
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 3,
+          "main": 2,
+          "": 1
+        },
+        "referring_links_countries": {
+          "US": 6
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "creati.ai",
+        "rank": 80,
+        "backlinks": 45,
+        "first_seen": "2025-09-16 08:41:54 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 33,
+        "referring_links_tld": {
+          "ai": 33
+        },
+        "referring_links_types": {
+          "anchor": 33
+        },
+        "referring_links_attributes": {
+          "noopener": 12,
+          "noreferrer": 12,
+          "external": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 27,
+          "ecommerce": 6
+        },
+        "referring_links_semantic_locations": {
+          "section": 33
+        },
+        "referring_links_countries": {
+          "AI": 33
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "digimaze.io",
+        "rank": 75,
+        "backlinks": 11,
+        "first_seen": "2025-08-20 08:16:51 +00:00",
+        "backlinks_spam_score": 2,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 4,
+        "referring_links_tld": {
+          "io": 4
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "noopener": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "": 4
+        },
+        "referring_links_countries": {
+          "IO": 4
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "toolify.ai",
+        "rank": 72,
+        "backlinks": 103,
+        "first_seen": "2025-01-26 01:48:01 +00:00",
+        "backlinks_spam_score": 13,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 88,
+        "referring_pages_nofollow": 83,
+        "referring_links_tld": {
+          "ai": 88
+        },
+        "referring_links_types": {
+          "anchor": 88
+        },
+        "referring_links_attributes": {
+          "nofollow": 83
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 56,
+          "unknown": 32,
+          "message-boards": 8,
+          "organization": 8
+        },
+        "referring_links_semantic_locations": {
+          "": 66,
+          "section": 22
+        },
+        "referring_links_countries": {
+          "AI": 88
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "2agi.net",
+        "rank": 63,
+        "backlinks": 25,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 20,
+        "referring_links_tld": {
+          "net": 20
+        },
+        "referring_links_types": {
+          "anchor": 20
+        },
+        "referring_links_attributes": {
+          "noopener": 20,
+          "noreferrer": 20
+        },
+        "referring_links_platform_types": {
+          "unknown": 20
+        },
+        "referring_links_semantic_locations": {
+          "main": 20
+        },
+        "referring_links_countries": {
+          "US": 12,
+          "": 8
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aimatch.pro",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aiseekify.com",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "broken_backlinks": 1,
+        "broken_pages": 1,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 2,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 2
+        },
+        "referring_links_types": {
+          "anchor": 2
+        },
+        "referring_links_attributes": {
+          "noopener": 2,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 2
+        },
+        "referring_links_countries": {
+          "": 2
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 2847
+}
+{
+  "tool_name": "backlinks_referring_domains",
+  "timestamp": "2025-12-01 15:49:59",
+  "data": {
+    "id": "12011219-1210-0273-0000-4ce325de2d1d",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "chinaz.tv",
+        "rank": 158,
+        "backlinks": 129,
+        "first_seen": "2025-08-01 02:16:51 +00:00",
+        "backlinks_spam_score": 24,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 129,
+        "referring_links_tld": {
+          "tv": 129
+        },
+        "referring_links_types": {
+          "anchor": 129
+        },
+        "referring_links_platform_types": {
+          "unknown": 120,
+          "ecommerce": 9
+        },
+        "referring_links_semantic_locations": {
+          "": 129
+        },
+        "referring_links_countries": {
+          "TV": 129
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aieep.ai",
+        "rank": 124,
+        "backlinks": 52,
+        "first_seen": "2025-09-30 17:06:18 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 46,
+        "referring_pages_nofollow": 40,
+        "referring_links_tld": {
+          "ai": 46
+        },
+        "referring_links_types": {
+          "anchor": 46
+        },
+        "referring_links_attributes": {
+          "external": 40,
+          "nofollow": 40,
+          "noopener": 40
+        },
+        "referring_links_platform_types": {
+          "unknown": 46
+        },
+        "referring_links_semantic_locations": {
+          "article": 40,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "AI": 46
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "saashub.com",
+        "rank": 87,
+        "backlinks": 60,
+        "first_seen": "2025-05-04 06:34:08 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 58,
+        "referring_pages_nofollow": 48,
+        "referring_links_tld": {
+          "com": 58
+        },
+        "referring_links_types": {
+          "anchor": 53,
+          "image": 5
+        },
+        "referring_links_attributes": {
+          "nofollow": 48,
+          "ugc": 7,
+          "noopener": 1,
+          "noreferrer": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 58
+        },
+        "referring_links_semantic_locations": {
+          "": 28,
+          "section": 24,
+          "main": 6
+        },
+        "referring_links_countries": {
+          "US": 58
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "producthunt.com",
+        "rank": 81,
+        "backlinks": 11,
+        "first_seen": "2025-02-13 03:33:43 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 6,
+        "referring_links_tld": {
+          "com": 6
+        },
+        "referring_links_types": {
+          "anchor": 5,
+          "redirect": 1
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 3,
+          "main": 2,
+          "": 1
+        },
+        "referring_links_countries": {
+          "US": 6
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "creati.ai",
+        "rank": 80,
+        "backlinks": 45,
+        "first_seen": "2025-09-16 08:41:54 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 33,
+        "referring_links_tld": {
+          "ai": 33
+        },
+        "referring_links_types": {
+          "anchor": 33
+        },
+        "referring_links_attributes": {
+          "noopener": 12,
+          "noreferrer": 12,
+          "external": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 27,
+          "ecommerce": 6
+        },
+        "referring_links_semantic_locations": {
+          "section": 33
+        },
+        "referring_links_countries": {
+          "AI": 33
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "digimaze.io",
+        "rank": 75,
+        "backlinks": 11,
+        "first_seen": "2025-08-20 08:16:51 +00:00",
+        "backlinks_spam_score": 2,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 4,
+        "referring_links_tld": {
+          "io": 4
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "noopener": 4
+        },
+        "referring_links_platform_types": {
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "": 4
+        },
+        "referring_links_countries": {
+          "IO": 4
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "toolify.ai",
+        "rank": 72,
+        "backlinks": 103,
+        "first_seen": "2025-01-26 01:48:01 +00:00",
+        "backlinks_spam_score": 13,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 88,
+        "referring_pages_nofollow": 83,
+        "referring_links_tld": {
+          "ai": 88
+        },
+        "referring_links_types": {
+          "anchor": 88
+        },
+        "referring_links_attributes": {
+          "nofollow": 83
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 56,
+          "unknown": 32,
+          "message-boards": 8,
+          "organization": 8
+        },
+        "referring_links_semantic_locations": {
+          "": 66,
+          "section": 22
+        },
+        "referring_links_countries": {
+          "AI": 88
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "2agi.net",
+        "rank": 63,
+        "backlinks": 25,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 20,
+        "referring_links_tld": {
+          "net": 20
+        },
+        "referring_links_types": {
+          "anchor": 20
+        },
+        "referring_links_attributes": {
+          "noopener": 20,
+          "noreferrer": 20
+        },
+        "referring_links_platform_types": {
+          "unknown": 20
+        },
+        "referring_links_semantic_locations": {
+          "main": 20
+        },
+        "referring_links_countries": {
+          "US": 12,
+          "": 8
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aimatch.pro",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_referring_domain",
+        "domain": "aiseekify.com",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "broken_backlinks": 1,
+        "broken_pages": 1,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 2,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 2
+        },
+        "referring_links_types": {
+          "anchor": 2
+        },
+        "referring_links_attributes": {
+          "noopener": 2,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 2
+        },
+        "referring_links_countries": {
+          "": 2
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 2849
+}

@@ -1,0 +1,228 @@
+{
+  "tool_name": "backlinks_competitors",
+  "timestamp": "2025-12-01 15:23:41",
+  "data": {
+    "id": "12011153-1210-0461-0000-0301f83f1293",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_competitors",
+        "target": "builtin.com",
+        "rank": 42,
+        "intersections": 50
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "posteezy.com",
+        "rank": 32,
+        "intersections": 16
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "crunchbase.com",
+        "rank": 37,
+        "intersections": 15
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "beehiiv.com",
+        "rank": 19,
+        "intersections": 11
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "amzn.to",
+        "rank": 9,
+        "intersections": 9
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "producthunt.com",
+        "rank": 21,
+        "intersections": 4
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "dtcpack.cn",
+        "rank": 11,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "goodfirms.co",
+        "rank": 51,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "cute-kaomoji.com",
+        "rank": 63,
+        "intersections": 2
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "lu.ma",
+        "rank": 7,
+        "intersections": 1
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 571
+}
+{
+  "tool_name": "backlinks_competitors",
+  "timestamp": "2025-12-01 15:29:29",
+  "data": {
+    "id": "12011159-1210-0461-0000-998b5a4221cf",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_competitors",
+        "target": "builtin.com",
+        "rank": 42,
+        "intersections": 50
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "posteezy.com",
+        "rank": 32,
+        "intersections": 16
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "crunchbase.com",
+        "rank": 37,
+        "intersections": 15
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "beehiiv.com",
+        "rank": 19,
+        "intersections": 11
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "amzn.to",
+        "rank": 9,
+        "intersections": 9
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "producthunt.com",
+        "rank": 21,
+        "intersections": 4
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "dtcpack.cn",
+        "rank": 11,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "goodfirms.co",
+        "rank": 51,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "cute-kaomoji.com",
+        "rank": 63,
+        "intersections": 2
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "lu.ma",
+        "rank": 7,
+        "intersections": 1
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 571
+}
+{
+  "tool_name": "backlinks_competitors",
+  "timestamp": "2025-12-01 15:49:59",
+  "data": {
+    "id": "12011219-1210-0461-0000-5cf9de4760f2",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_competitors",
+        "target": "builtin.com",
+        "rank": 42,
+        "intersections": 50
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "posteezy.com",
+        "rank": 32,
+        "intersections": 16
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "crunchbase.com",
+        "rank": 37,
+        "intersections": 15
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "beehiiv.com",
+        "rank": 19,
+        "intersections": 11
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "amzn.to",
+        "rank": 9,
+        "intersections": 9
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "producthunt.com",
+        "rank": 21,
+        "intersections": 4
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "dtcpack.cn",
+        "rank": 11,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "goodfirms.co",
+        "rank": 51,
+        "intersections": 3
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "cute-kaomoji.com",
+        "rank": 63,
+        "intersections": 2
+      },
+      {
+        "type": "backlinks_competitors",
+        "target": "lu.ma",
+        "rank": 7,
+        "intersections": 1
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 574
+}

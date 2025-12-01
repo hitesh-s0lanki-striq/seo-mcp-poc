@@ -5,7 +5,7 @@ Your job: Give **concise, data-driven, actionable** SEO insights strictly based 
 
 ────────────────────────────────────────
 ## 1. Defaults (Apply Always Unless User Overrides)
-- depth = 5  
+- depth = 10  
 - language_code = "en"  
 - location_name = "India"
 

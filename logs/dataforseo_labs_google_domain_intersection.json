@@ -1,0 +1,1175 @@
+{
+  "tool_name": "dataforseo_labs_google_domain_intersection",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0389-0000-f3a78d621aa5",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "instagram post size",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-08 04:28:40 +00:00",
+            "competition_level": "LOW",
+            "cpc": 0.12,
+            "search_volume": 60500,
+            "categories": [
+              10021,
+              10171,
+              10892
+            ],
+            "monthly_searches": {
+              "2025-10": 60500,
+              "2025-09": 60500,
+              "2025-08": 74000,
+              "2025-07": 60500,
+              "2025-06": 60500,
+              "2025-05": 60500,
+              "2025-04": 60500,
+              "2025-03": 74000,
+              "2025-02": 60500,
+              "2025-01": 60500,
+              "2024-12": 60500,
+              "2024-11": 49500
+            },
+            "search_volume_trend": {
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 12,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 363.6,
+            "dofollow": 259.1,
+            "referring_pages": 329.9,
+            "referring_domains": 141.6,
+            "referring_main_domains": 131.6,
+            "rank": 93.6,
+            "main_domain_rank": 638.4,
+            "last_updated_time": "2025-10-13 16:44:43 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-04 06:03:28 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 32,
+          "rank_absolute": 38,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post sizes and dimensions for 2024"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 60,
+            "is_up": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 32,
+          "rank_absolute": 38,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post sizes and dimensions for 2024"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 60,
+            "is_up": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "instagram post size dimensions",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-11 03:46:14 +00:00",
+            "competition_level": "LOW",
+            "cpc": 0.12,
+            "search_volume": 60500,
+            "categories": [
+              10004,
+              10282,
+              11287,
+              12589,
+              13319
+            ],
+            "monthly_searches": {
+              "2025-10": 60500,
+              "2025-09": 60500,
+              "2025-08": 74000,
+              "2025-07": 60500,
+              "2025-06": 60500,
+              "2025-05": 60500,
+              "2025-04": 60500,
+              "2025-03": 74000,
+              "2025-02": 60500,
+              "2025-01": 60500,
+              "2024-12": 60500,
+              "2024-11": 49500
+            },
+            "search_volume_trend": {
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 20,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 481,
+            "dofollow": 372.1,
+            "referring_pages": 425.5,
+            "referring_domains": 200.1,
+            "referring_main_domains": 186.8,
+            "rank": 129.3,
+            "main_domain_rank": 600,
+            "last_updated_time": "2025-11-14 23:56:29 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-08-30 09:20:08 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 86,
+          "rank_absolute": 98,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Let's dive into the depths to find out the best size for Instagram posts and how you can get your content noticed in an increasingly cluttered social landscape.",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "size",
+            "Instagram posts"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 47,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 199
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 86,
+          "rank_absolute": 98,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Let's dive into the depths to find out the best size for Instagram posts and how you can get your content noticed in an increasingly cluttered social landscape.",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "size",
+            "Instagram posts"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 47,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 199
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "dimensions for instagram post",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-07 09:47:52 +00:00",
+            "competition_level": "LOW",
+            "cpc": 0.12,
+            "search_volume": 60500,
+            "categories": [
+              10001,
+              10026,
+              10209,
+              10993,
+              12268
+            ],
+            "monthly_searches": {
+              "2025-10": 60500,
+              "2025-09": 60500,
+              "2025-08": 74000,
+              "2025-07": 60500,
+              "2025-06": 60500,
+              "2025-05": 60500,
+              "2025-04": 60500,
+              "2025-03": 74000,
+              "2025-02": 60500,
+              "2025-01": 60500,
+              "2024-12": 60500,
+              "2024-11": 49500
+            },
+            "search_volume_trend": {
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 11,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 115,
+            "dofollow": 83.1,
+            "referring_pages": 105.7,
+            "referring_domains": 48.9,
+            "referring_main_domains": 45.2,
+            "rank": 85.2,
+            "main_domain_rank": 674,
+            "last_updated_time": "2025-10-13 17:09:04 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-02 23:13:01 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 77,
+          "rank_absolute": 87,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "is_image": true,
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post",
+            "dimensions",
+            "Instagram posts"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 54,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 77,
+          "rank_absolute": 87,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "is_image": true,
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post",
+            "dimensions",
+            "Instagram posts"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "previous_rank_absolute": 54,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "ig post size",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-09 07:18:37 +00:00",
+            "competition_level": "LOW",
+            "cpc": 0.12,
+            "search_volume": 60500,
+            "categories": [
+              10009,
+              10406,
+              13408
+            ],
+            "monthly_searches": {
+              "2025-10": 60500,
+              "2025-09": 60500,
+              "2025-08": 74000,
+              "2025-07": 60500,
+              "2025-06": 60500,
+              "2025-05": 60500,
+              "2025-04": 60500,
+              "2025-03": 74000,
+              "2025-02": 60500,
+              "2025-01": 60500,
+              "2024-12": 60500,
+              "2024-11": 49500
+            },
+            "search_volume_trend": {
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 30,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 538.8,
+            "dofollow": 420.3,
+            "referring_pages": 487.3,
+            "referring_domains": 245.5,
+            "referring_main_domains": 228.9,
+            "rank": 163.9,
+            "main_domain_rank": 661.3,
+            "last_updated_time": "2025-11-05 21:27:05 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-07 04:03:13 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 72,
+          "rank_absolute": 88,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post sizes"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 72,
+          "rank_absolute": 88,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram post sizes"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 127.05,
+          "estimated_paid_traffic_cost": 15.246,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "ig post ratio",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-08 23:12:37 +00:00",
+            "competition_level": "LOW",
+            "search_volume": 12100,
+            "categories": [
+              10009,
+              10406,
+              13408
+            ],
+            "monthly_searches": {
+              "2025-10": 12100,
+              "2025-09": 14800,
+              "2025-08": 12100,
+              "2025-07": 12100,
+              "2025-06": 12100,
+              "2025-05": 9900,
+              "2025-04": 9900,
+              "2025-03": 12100,
+              "2025-02": 9900,
+              "2025-01": 12100,
+              "2024-12": 9900,
+              "2024-11": 9900
+            },
+            "search_volume_trend": {
+              "monthly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 14,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 105.5,
+            "dofollow": 72,
+            "referring_pages": 97.3,
+            "referring_domains": 49.1,
+            "referring_main_domains": 45.6,
+            "rank": 102.7,
+            "main_domain_rank": 606.2,
+            "last_updated_time": "2025-11-06 08:57:05 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-12-26 22:07:08 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 71,
+          "rank_absolute": 85,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Perfect for IGTV previews, vertical how-to videos and any time you have a video that makes the most use of your entire screen. This aspect ratio ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 25.41,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 71,
+          "rank_absolute": 85,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Perfect for IGTV previews, vertical how-to videos and any time you have a video that makes the most use of your entire screen. This aspect ratio ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 25.41,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "instagram post ratio",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-07 22:00:20 +00:00",
+            "competition_level": "LOW",
+            "search_volume": 12100,
+            "categories": [
+              10004,
+              10282,
+              11146,
+              11292
+            ],
+            "monthly_searches": {
+              "2025-10": 12100,
+              "2025-09": 14800,
+              "2025-08": 12100,
+              "2025-07": 12100,
+              "2025-06": 12100,
+              "2025-05": 9900,
+              "2025-04": 9900,
+              "2025-03": 12100,
+              "2025-02": 9900,
+              "2025-01": 12100,
+              "2024-12": 9900,
+              "2024-11": 9900
+            },
+            "search_volume_trend": {
+              "monthly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 22,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 204.2,
+            "dofollow": 133.7,
+            "referring_pages": 191.3,
+            "referring_domains": 96.8,
+            "referring_main_domains": 85.8,
+            "rank": 128.5,
+            "main_domain_rank": 686.9,
+            "last_updated_time": "2025-11-11 07:20:03 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-04 06:03:28 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 57,
+          "rank_absolute": 71,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Perfect for IGTV previews, vertical how-to videos and any time you have a video that makes the most use of your entire screen. This aspect ratio ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 25.41,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 200
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 57,
+          "rank_absolute": 71,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Perfect for IGTV previews, vertical how-to videos and any time you have a video that makes the most use of your entire screen. This aspect ratio ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 25.41,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 200
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "ig post size ratio",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-11 06:09:48 +00:00",
+            "competition_level": "LOW",
+            "search_volume": 9900,
+            "categories": [
+              10004,
+              10012,
+              10095,
+              10282,
+              11287,
+              11827,
+              12589,
+              13319,
+              13459
+            ],
+            "monthly_searches": {
+              "2025-10": 9900,
+              "2025-09": 12100,
+              "2025-08": 12100,
+              "2025-07": 12100,
+              "2025-06": 9900,
+              "2025-05": 9900,
+              "2025-04": 9900,
+              "2025-03": 9900,
+              "2025-02": 9900,
+              "2025-01": 9900,
+              "2024-12": 9900,
+              "2024-11": 8100
+            },
+            "search_volume_trend": {
+              "monthly": -18,
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 19,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 129.7,
+            "dofollow": 96,
+            "referring_pages": 119.9,
+            "referring_domains": 53.4,
+            "referring_main_domains": 48.9,
+            "rank": 116,
+            "main_domain_rank": 676.6,
+            "last_updated_time": "2025-11-06 11:24:34 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2024-06-06 10:15:56 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 65,
+          "rank_absolute": 75,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Portrait Photo Size: ‍. Suitable for portrait shots, detailed images, and content that benefits from a taller format. This aspect ratio is ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Size",
+            "aspect ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 20.79,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 65,
+          "rank_absolute": 75,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Portrait Photo Size: ‍. Suitable for portrait shots, detailed images, and content that benefits from a taller format. This aspect ratio is ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Size",
+            "aspect ratio"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 20.79,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 196
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "instagram post size ratio",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-07 13:35:36 +00:00",
+            "competition_level": "LOW",
+            "search_volume": 9900,
+            "categories": [
+              10004,
+              10282,
+              11287,
+              12589,
+              13319
+            ],
+            "monthly_searches": {
+              "2025-10": 9900,
+              "2025-09": 12100,
+              "2025-08": 12100,
+              "2025-07": 12100,
+              "2025-06": 9900,
+              "2025-05": 9900,
+              "2025-04": 9900,
+              "2025-03": 9900,
+              "2025-02": 9900,
+              "2025-01": 9900,
+              "2024-12": 9900,
+              "2024-11": 8100
+            },
+            "search_volume_trend": {
+              "monthly": -18,
+              "quarterly": -18,
+              "yearly": 22
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 22,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 341.7,
+            "dofollow": 257.9,
+            "referring_pages": 306.2,
+            "referring_domains": 145.3,
+            "referring_main_domains": 135.2,
+            "rank": 126.5,
+            "main_domain_rank": 714.5,
+            "last_updated_time": "2025-11-11 10:13:37 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-04 06:03:28 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 70,
+          "rank_absolute": 83,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Depending on the type of content you are posting (square photo, portrait, landscape or video), the size is going to be different. Getting to ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "posting",
+            "photo",
+            "size"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 20.79,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 200
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 70,
+          "rank_absolute": 83,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Depending on the type of content you are posting (square photo, portrait, landscape or video), the size is going to be different. Getting to ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "posting",
+            "photo",
+            "size"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 20.79,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 200
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "dimensions for instagram",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-07 14:22:36 +00:00",
+            "competition_level": "LOW",
+            "cpc": 0.01,
+            "search_volume": 6600,
+            "categories": [
+              10108,
+              13691,
+              13692
+            ],
+            "monthly_searches": {
+              "2025-10": 6600,
+              "2025-09": 6600,
+              "2025-08": 6600,
+              "2025-07": 8100,
+              "2025-06": 6600,
+              "2025-05": 6600,
+              "2025-04": 6600,
+              "2025-03": 8100,
+              "2025-02": 6600,
+              "2025-01": 6600,
+              "2024-12": 6600,
+              "2024-11": 5400
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 30,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 347.2,
+            "dofollow": 261.5,
+            "referring_pages": 311.3,
+            "referring_domains": 149.1,
+            "referring_main_domains": 138.7,
+            "rank": 153.1,
+            "main_domain_rank": 618.3,
+            "last_updated_time": "2025-11-14 12:13:34 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "last_updated_time": "2023-03-02 23:13:01 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 84,
+          "rank_absolute": 96,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "is_image": true,
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram",
+            "dimensions"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 13.86,
+          "estimated_paid_traffic_cost": 0.139,
+          "rank_changes": {
+            "previous_rank_absolute": 59,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 199
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 84,
+          "rank_absolute": 96,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "is_image": true,
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "Instagram",
+            "dimensions"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 13.86,
+          "estimated_paid_traffic_cost": 0.139,
+          "rank_changes": {
+            "previous_rank_absolute": 59,
+            "is_down": true
+          },
+          "rank_info": {
+            "main_domain_rank": 199
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword_data": {
+          "se_type": "google",
+          "keyword": "new instagram post size",
+          "location_code": 2356,
+          "language_code": "en",
+          "keyword_info": {
+            "se_type": "google",
+            "last_updated_time": "2025-11-08 17:44:17 +00:00",
+            "competition_level": "LOW",
+            "search_volume": 4400,
+            "categories": [
+              10021,
+              10171,
+              10892
+            ],
+            "monthly_searches": {
+              "2025-10": 2900,
+              "2025-09": 4400,
+              "2025-08": 4400,
+              "2025-07": 2900,
+              "2025-06": 3600,
+              "2025-05": 3600,
+              "2025-04": 4400,
+              "2025-03": 6600,
+              "2025-02": 9900,
+              "2025-01": 6600,
+              "2024-12": 110,
+              "2024-11": 90
+            },
+            "search_volume_trend": {
+              "monthly": -34,
+              "quarterly": -34,
+              "yearly": 3122
+            }
+          },
+          "keyword_properties": {
+            "se_type": "google",
+            "synonym_clustering_algorithm": "text_processing",
+            "keyword_difficulty": 25,
+            "detected_language": "en"
+          },
+          "avg_backlinks_info": {
+            "se_type": "google",
+            "backlinks": 533.6,
+            "dofollow": 416,
+            "referring_pages": 482.8,
+            "referring_domains": 245.7,
+            "referring_main_domains": 229.1,
+            "rank": 151.2,
+            "main_domain_rank": 608.2,
+            "last_updated_time": "2025-10-15 11:37:21 +00:00"
+          },
+          "search_intent_info": {
+            "se_type": "google",
+            "main_intent": "informational",
+            "foreign_intent": [
+              "commercial"
+            ],
+            "last_updated_time": "2025-04-10 09:31:19 +00:00"
+          }
+        },
+        "first_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 84,
+          "rank_absolute": 89,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips - Strique",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "latest Instagram post sizes"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 9.24,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        },
+        "second_domain_serp_element": {
+          "se_type": "google",
+          "type": "organic",
+          "rank_group": 84,
+          "rank_absolute": 89,
+          "domain": "www.strique.io",
+          "title": "Instagram Post Sizes: Latest Dimensions and Tips - Strique",
+          "url": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+          "breadcrumb": "https://www.strique.io › blogs › instagram-post-sizes-di...",
+          "website_name": "Strique",
+          "description": "26 Aug 2024 — Find the latest Instagram post sizes and dimensions for 2024. Get tips on the best sizes for Instagram posts in pixels to enhance visuals ...",
+          "pre_snippet": "08/26/2024 00:00:00",
+          "highlighted": [
+            "latest Instagram post sizes"
+          ],
+          "main_domain": "strique.io",
+          "relative_url": "/blogs/instagram-post-sizes-dimensions-tips",
+          "etv": 9.24,
+          "rank_changes": {
+            "is_new": true
+          },
+          "rank_info": {
+            "main_domain_rank": 193
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target1": "strique.io",
+    "target2": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 12476
+}

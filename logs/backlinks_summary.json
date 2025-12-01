@@ -1,0 +1,676 @@
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-11-21 16:25:41",
+  "data": {
+    "id": "11211255-1233-0265-0000-44dc4037ff5b",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "wyo.in",
+        "first_seen": "2019-01-16 22:43:39 +00:00",
+        "rank": 200,
+        "backlinks": 1023,
+        "backlinks_spam_score": 15,
+        "crawled_pages": 36866,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "ecommerce"
+          ],
+          "ip_address": "43.204.204.16",
+          "country": "IN",
+          "target_spam_score": 7
+        },
+        "internal_links_count": 5606470,
+        "external_links_count": 46195,
+        "broken_backlinks": 132,
+        "broken_pages": 1761,
+        "referring_domains": 313,
+        "referring_domains_nofollow": 73,
+        "referring_main_domains": 304,
+        "referring_main_domains_nofollow": 69,
+        "referring_ips": 236,
+        "referring_subnets": 202,
+        "referring_pages": 869,
+        "referring_pages_nofollow": 220,
+        "referring_links_tld": {
+          "com": 394,
+          "net": 110,
+          "org": 101,
+          "blogspot.com": 83,
+          "in": 41,
+          "info": 34,
+          "homes": 17,
+          "vc": 7,
+          "pages.dev": 7,
+          "ng": 5
+        },
+        "referring_links_types": {
+          "anchor": 502,
+          "image": 363,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 220,
+          "noopener": 158,
+          "external": 76,
+          "noreferrer": 42,
+          "ugc": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 391,
+          "organization": 231,
+          "blogs": 228,
+          "cms": 144,
+          "ecommerce": 82,
+          "news": 55,
+          "message-boards": 5,
+          "wikis": 1
+        },
+        "referring_links_semantic_locations": {
+          "": 457,
+          "article": 210,
+          "main": 112,
+          "section": 55,
+          "aside": 17,
+          "figure": 10,
+          "nav": 4,
+          "header": 4
+        },
+        "referring_links_countries": {
+          "": 497,
+          "IN": 160,
+          "WW": 101,
+          "US": 49,
+          "VC": 7,
+          "NG": 5,
+          "IO": 5,
+          "GB": 4,
+          "NL": 4,
+          "BR": 3
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "wyo.in"
+  },
+  "token_count": 815
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0265-0000-d84eabca4b75",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 201,
+        "backlinks": 5574,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 61,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 73,
+        "referring_domains_nofollow": 24,
+        "referring_main_domains": 70,
+        "referring_main_domains_nofollow": 24,
+        "referring_ips": 69,
+        "referring_subnets": 64,
+        "referring_pages": 5478,
+        "referring_pages_nofollow": 5203,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 156,
+          "com": 134,
+          "tv": 127,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "co": 4,
+          "pages.dev": 4,
+          "store": 3
+        },
+        "referring_links_types": {
+          "anchor": 5464,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5203,
+          "noopener": 118,
+          "noreferrer": 61,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5355,
+          "ecommerce": 74,
+          "organization": 33,
+          "blogs": 18,
+          "cms": 18,
+          "message-boards": 2
+        },
+        "referring_links_semantic_locations": {
+          "main": 5052,
+          "": 250,
+          "section": 111,
+          "article": 63,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 2036,
+          "AI": 156,
+          "TV": 127,
+          "US": 93,
+          "": 86,
+          "WW": 80,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 785
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-12-01 13:40:12",
+  "data": {
+    "id": "12011010-1210-0265-0000-4ee48577a1e0",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 202,
+        "backlinks": 5592,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 62,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 75,
+        "referring_domains_nofollow": 25,
+        "referring_main_domains": 72,
+        "referring_main_domains_nofollow": 25,
+        "referring_ips": 69,
+        "referring_subnets": 63,
+        "referring_pages": 5493,
+        "referring_pages_nofollow": 5214,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 169,
+          "com": 134,
+          "tv": 129,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "pages.dev": 5,
+          "co": 4,
+          "info": 3
+        },
+        "referring_links_types": {
+          "anchor": 5479,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5214,
+          "noopener": 118,
+          "noreferrer": 62,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5359,
+          "ecommerce": 88,
+          "organization": 38,
+          "blogs": 17,
+          "cms": 17,
+          "message-boards": 8
+        },
+        "referring_links_semantic_locations": {
+          "main": 5053,
+          "": 257,
+          "section": 117,
+          "article": 64,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 1762,
+          "WW": 354,
+          "AI": 169,
+          "TV": 129,
+          "US": 92,
+          "": 88,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 786
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-12-01 15:23:41",
+  "data": {
+    "id": "12011153-1210-0265-0000-92f65b188d1c",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 202,
+        "backlinks": 5592,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 62,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 75,
+        "referring_domains_nofollow": 25,
+        "referring_main_domains": 72,
+        "referring_main_domains_nofollow": 25,
+        "referring_ips": 69,
+        "referring_subnets": 63,
+        "referring_pages": 5493,
+        "referring_pages_nofollow": 5214,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 169,
+          "com": 134,
+          "tv": 129,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "pages.dev": 5,
+          "co": 4,
+          "info": 3
+        },
+        "referring_links_types": {
+          "anchor": 5479,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5214,
+          "noopener": 118,
+          "noreferrer": 62,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5359,
+          "ecommerce": 88,
+          "organization": 38,
+          "blogs": 17,
+          "cms": 17,
+          "message-boards": 8
+        },
+        "referring_links_semantic_locations": {
+          "main": 5053,
+          "": 257,
+          "section": 117,
+          "article": 64,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 1762,
+          "WW": 354,
+          "AI": 169,
+          "TV": 129,
+          "US": 92,
+          "": 88,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 787
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-12-01 15:29:29",
+  "data": {
+    "id": "12011159-1210-0265-0000-29ad3948afe9",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 202,
+        "backlinks": 5592,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 62,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 75,
+        "referring_domains_nofollow": 25,
+        "referring_main_domains": 72,
+        "referring_main_domains_nofollow": 25,
+        "referring_ips": 69,
+        "referring_subnets": 63,
+        "referring_pages": 5493,
+        "referring_pages_nofollow": 5214,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 169,
+          "com": 134,
+          "tv": 129,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "pages.dev": 5,
+          "co": 4,
+          "info": 3
+        },
+        "referring_links_types": {
+          "anchor": 5479,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5214,
+          "noopener": 118,
+          "noreferrer": 62,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5359,
+          "ecommerce": 88,
+          "organization": 38,
+          "blogs": 17,
+          "cms": 17,
+          "message-boards": 8
+        },
+        "referring_links_semantic_locations": {
+          "main": 5053,
+          "": 257,
+          "section": 117,
+          "article": 64,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 1762,
+          "WW": 354,
+          "AI": 169,
+          "TV": 129,
+          "US": 92,
+          "": 88,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 784
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-12-01 15:49:59",
+  "data": {
+    "id": "12011219-1210-0265-0000-e52aa533e6eb",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 202,
+        "backlinks": 5592,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 62,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 75,
+        "referring_domains_nofollow": 25,
+        "referring_main_domains": 72,
+        "referring_main_domains_nofollow": 25,
+        "referring_ips": 69,
+        "referring_subnets": 63,
+        "referring_pages": 5493,
+        "referring_pages_nofollow": 5214,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 169,
+          "com": 134,
+          "tv": 129,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "pages.dev": 5,
+          "co": 4,
+          "info": 3
+        },
+        "referring_links_types": {
+          "anchor": 5479,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5214,
+          "noopener": 118,
+          "noreferrer": 62,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5359,
+          "ecommerce": 88,
+          "organization": 38,
+          "blogs": 17,
+          "cms": 17,
+          "message-boards": 8
+        },
+        "referring_links_semantic_locations": {
+          "main": 5053,
+          "": 257,
+          "section": 117,
+          "article": 64,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 1762,
+          "WW": 354,
+          "AI": 169,
+          "TV": 129,
+          "US": 92,
+          "": 88,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 785
+}
+{
+  "tool_name": "backlinks_summary",
+  "timestamp": "2025-12-01 16:20:13",
+  "data": {
+    "id": "12011250-1210-0265-0000-7eb697203d5a",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "target": "strique.io",
+        "first_seen": "2023-05-09 02:29:48 +00:00",
+        "rank": 202,
+        "backlinks": 5592,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 62,
+        "info": {
+          "server": "cloudflare",
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "15.161.34.42",
+          "country": "IO",
+          "target_spam_score": 1
+        },
+        "internal_links_count": 480,
+        "external_links_count": 152,
+        "broken_backlinks": 1,
+        "broken_pages": 10,
+        "referring_domains": 75,
+        "referring_domains_nofollow": 25,
+        "referring_main_domains": 72,
+        "referring_main_domains_nofollow": 25,
+        "referring_ips": 69,
+        "referring_subnets": 63,
+        "referring_pages": 5493,
+        "referring_pages_nofollow": 5214,
+        "referring_links_tld": {
+          "net": 5008,
+          "ai": 169,
+          "com": 134,
+          "tv": 129,
+          "top": 10,
+          "art": 5,
+          "io": 5,
+          "pages.dev": 5,
+          "co": 4,
+          "info": 3
+        },
+        "referring_links_types": {
+          "anchor": 5479,
+          "image": 10,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5214,
+          "noopener": 118,
+          "noreferrer": 62,
+          "external": 54,
+          "ugc": 7
+        },
+        "referring_links_platform_types": {
+          "unknown": 5359,
+          "ecommerce": 88,
+          "organization": 38,
+          "blogs": 17,
+          "cms": 17,
+          "message-boards": 8
+        },
+        "referring_links_semantic_locations": {
+          "main": 5053,
+          "": 257,
+          "section": 117,
+          "article": 64,
+          "header": 1,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "UA": 2878,
+          "DE": 1762,
+          "WW": 354,
+          "AI": 169,
+          "TV": 129,
+          "US": 92,
+          "": 88,
+          "IN": 9,
+          "IO": 5,
+          "CO": 4
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io"
+  },
+  "token_count": 787
+}

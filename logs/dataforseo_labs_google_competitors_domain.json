@@ -1,0 +1,1377 @@
+{
+  "tool_name": "dataforseo_labs_google_competitors_domain",
+  "timestamp": "2025-11-21 16:25:41",
+  "data": {
+    "id": "11211255-1233-0386-0000-6876daef5253",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "domain": "wyo.in",
+        "avg_position": 42,
+        "sum_position": 23772,
+        "intersections": 566,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 12,
+            "pos_2_3": 20,
+            "pos_4_10": 33,
+            "pos_11_20": 70,
+            "pos_21_30": 77,
+            "pos_31_40": 78,
+            "pos_41_50": 68,
+            "pos_51_60": 61,
+            "pos_61_70": 51,
+            "pos_71_80": 43,
+            "pos_81_90": 38,
+            "pos_91_100": 15,
+            "etv": 22519.317,
+            "count": 566,
+            "estimated_paid_traffic_cost": 2711.876,
+            "is_new": 498,
+            "is_up": 34,
+            "is_down": 23,
+            "is_lost": 3889
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 12,
+            "pos_2_3": 20,
+            "pos_4_10": 33,
+            "pos_11_20": 70,
+            "pos_21_30": 77,
+            "pos_31_40": 78,
+            "pos_41_50": 68,
+            "pos_51_60": 61,
+            "pos_61_70": 51,
+            "pos_71_80": 43,
+            "pos_81_90": 38,
+            "pos_91_100": 15,
+            "etv": 22519.317,
+            "count": 566,
+            "estimated_paid_traffic_cost": 2711.876,
+            "is_new": 498,
+            "is_up": 34,
+            "is_down": 23
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 12,
+            "pos_2_3": 20,
+            "pos_4_10": 33,
+            "pos_11_20": 70,
+            "pos_21_30": 77,
+            "pos_31_40": 78,
+            "pos_41_50": 68,
+            "pos_51_60": 61,
+            "pos_61_70": 51,
+            "pos_71_80": 43,
+            "pos_81_90": 38,
+            "pos_91_100": 15,
+            "etv": 22519.317,
+            "count": 566,
+            "estimated_paid_traffic_cost": 2711.876,
+            "is_new": 498,
+            "is_up": 34,
+            "is_down": 23
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "myntra.com",
+        "avg_position": 16.502,
+        "sum_position": 7591,
+        "intersections": 460,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 38068,
+            "pos_2_3": 48476,
+            "pos_4_10": 104051,
+            "pos_11_20": 59461,
+            "pos_21_30": 33871,
+            "pos_31_40": 25385,
+            "pos_41_50": 19091,
+            "pos_51_60": 14851,
+            "pos_61_70": 11523,
+            "pos_71_80": 9031,
+            "pos_81_90": 7178,
+            "pos_91_100": 4480,
+            "etv": 70988401.693,
+            "count": 375466,
+            "estimated_paid_traffic_cost": 3135281.584,
+            "is_new": 145199,
+            "is_up": 73366,
+            "is_down": 114401,
+            "is_lost": 208113
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 11,
+            "pos_2_3": 19,
+            "pos_4_10": 30,
+            "pos_11_20": 56,
+            "pos_21_30": 55,
+            "pos_31_40": 62,
+            "pos_41_50": 55,
+            "pos_51_60": 44,
+            "pos_61_70": 41,
+            "pos_71_80": 39,
+            "pos_81_90": 35,
+            "pos_91_100": 13,
+            "etv": 19274.96,
+            "count": 460,
+            "estimated_paid_traffic_cost": 2110.84,
+            "is_new": 400,
+            "is_up": 30,
+            "is_down": 20
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 119,
+            "pos_2_3": 79,
+            "pos_4_10": 87,
+            "pos_11_20": 49,
+            "pos_21_30": 30,
+            "pos_31_40": 31,
+            "pos_41_50": 17,
+            "pos_51_60": 12,
+            "pos_61_70": 15,
+            "pos_71_80": 10,
+            "pos_81_90": 4,
+            "pos_91_100": 7,
+            "etv": 311887.314,
+            "count": 460,
+            "estimated_paid_traffic_cost": 7961.322,
+            "is_new": 163,
+            "is_up": 101,
+            "is_down": 118
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "flipkart.com",
+        "avg_position": 18.639,
+        "sum_position": 8406,
+        "intersections": 451,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 114242,
+            "pos_2_3": 237561,
+            "pos_4_10": 404659,
+            "pos_11_20": 254594,
+            "pos_21_30": 162376,
+            "pos_31_40": 118950,
+            "pos_41_50": 86578,
+            "pos_51_60": 62426,
+            "pos_61_70": 47429,
+            "pos_71_80": 37081,
+            "pos_81_90": 29226,
+            "pos_91_100": 18584,
+            "etv": 245518641.777,
+            "count": 1573706,
+            "estimated_paid_traffic_cost": 13597591.939,
+            "is_new": 832437,
+            "is_up": 263432,
+            "is_down": 347373,
+            "is_lost": 1216088
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 8,
+            "pos_2_3": 17,
+            "pos_4_10": 27,
+            "pos_11_20": 53,
+            "pos_21_30": 64,
+            "pos_31_40": 58,
+            "pos_41_50": 59,
+            "pos_51_60": 46,
+            "pos_61_70": 37,
+            "pos_71_80": 36,
+            "pos_81_90": 34,
+            "pos_91_100": 12,
+            "etv": 21120.56,
+            "count": 451,
+            "estimated_paid_traffic_cost": 2562.153,
+            "is_new": 393,
+            "is_up": 30,
+            "is_down": 20
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 32,
+            "pos_2_3": 42,
+            "pos_4_10": 145,
+            "pos_11_20": 104,
+            "pos_21_30": 38,
+            "pos_31_40": 27,
+            "pos_41_50": 25,
+            "pos_51_60": 8,
+            "pos_61_70": 11,
+            "pos_71_80": 11,
+            "pos_81_90": 3,
+            "pos_91_100": 5,
+            "etv": 45467.843,
+            "count": 451,
+            "estimated_paid_traffic_cost": 1523.635,
+            "is_new": 228,
+            "is_up": 91,
+            "is_down": 100
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "bewakoof.com",
+        "avg_position": 19.953,
+        "sum_position": 7183,
+        "intersections": 360,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 273,
+            "pos_2_3": 871,
+            "pos_4_10": 5144,
+            "pos_11_20": 7559,
+            "pos_21_30": 5139,
+            "pos_31_40": 3870,
+            "pos_41_50": 3193,
+            "pos_51_60": 2434,
+            "pos_61_70": 1927,
+            "pos_71_80": 1529,
+            "pos_81_90": 1175,
+            "pos_91_100": 667,
+            "etv": 1364765.375,
+            "count": 33781,
+            "estimated_paid_traffic_cost": 358569.893,
+            "is_new": 14473,
+            "is_up": 6951,
+            "is_down": 11069,
+            "is_lost": 26915
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 3,
+            "pos_2_3": 13,
+            "pos_4_10": 22,
+            "pos_11_20": 35,
+            "pos_21_30": 46,
+            "pos_31_40": 47,
+            "pos_41_50": 48,
+            "pos_51_60": 40,
+            "pos_61_70": 37,
+            "pos_71_80": 35,
+            "pos_81_90": 26,
+            "pos_91_100": 8,
+            "etv": 18804.412,
+            "count": 360,
+            "estimated_paid_traffic_cost": 2418.402,
+            "is_new": 318,
+            "is_up": 20,
+            "is_down": 16
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 34,
+            "pos_2_3": 31,
+            "pos_4_10": 74,
+            "pos_11_20": 91,
+            "pos_21_30": 49,
+            "pos_31_40": 28,
+            "pos_41_50": 21,
+            "pos_51_60": 15,
+            "pos_61_70": 6,
+            "pos_71_80": 4,
+            "pos_81_90": 5,
+            "pos_91_100": 2,
+            "etv": 45257.529,
+            "count": 360,
+            "estimated_paid_traffic_cost": 8928.435,
+            "is_new": 101,
+            "is_up": 100,
+            "is_down": 125
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "thesouledstore.com",
+        "avg_position": 23.375,
+        "sum_position": 8228,
+        "intersections": 352,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 661,
+            "pos_2_3": 811,
+            "pos_4_10": 2229,
+            "pos_11_20": 3023,
+            "pos_21_30": 2995,
+            "pos_31_40": 3066,
+            "pos_41_50": 3318,
+            "pos_51_60": 3129,
+            "pos_61_70": 2766,
+            "pos_71_80": 2469,
+            "pos_81_90": 2012,
+            "pos_91_100": 1350,
+            "etv": 1736347.417,
+            "count": 27829,
+            "estimated_paid_traffic_cost": 97239.254,
+            "is_new": 14354,
+            "is_up": 3878,
+            "is_down": 8659,
+            "is_lost": 31439
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 5,
+            "pos_2_3": 13,
+            "pos_4_10": 24,
+            "pos_11_20": 31,
+            "pos_21_30": 44,
+            "pos_31_40": 45,
+            "pos_41_50": 45,
+            "pos_51_60": 39,
+            "pos_61_70": 37,
+            "pos_71_80": 31,
+            "pos_81_90": 27,
+            "pos_91_100": 11,
+            "etv": 16422.539,
+            "count": 352,
+            "estimated_paid_traffic_cost": 1844.023,
+            "is_new": 316,
+            "is_up": 22,
+            "is_down": 10
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 33,
+            "pos_2_3": 46,
+            "pos_4_10": 67,
+            "pos_11_20": 70,
+            "pos_21_30": 33,
+            "pos_31_40": 29,
+            "pos_41_50": 22,
+            "pos_51_60": 12,
+            "pos_61_70": 14,
+            "pos_71_80": 14,
+            "pos_81_90": 5,
+            "pos_91_100": 7,
+            "etv": 96149.692,
+            "count": 352,
+            "estimated_paid_traffic_cost": 3308.675,
+            "is_new": 123,
+            "is_up": 77,
+            "is_down": 120
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "meesho.com",
+        "avg_position": 24.672,
+        "sum_position": 8265,
+        "intersections": 335,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 7309,
+            "pos_2_3": 25832,
+            "pos_4_10": 106364,
+            "pos_11_20": 85475,
+            "pos_21_30": 45523,
+            "pos_31_40": 28915,
+            "pos_41_50": 20926,
+            "pos_51_60": 15969,
+            "pos_61_70": 12389,
+            "pos_71_80": 9800,
+            "pos_81_90": 7751,
+            "pos_91_100": 4695,
+            "etv": 22581945.194,
+            "count": 370948,
+            "estimated_paid_traffic_cost": 936378.599,
+            "is_new": 235651,
+            "is_up": 48819,
+            "is_down": 71340,
+            "is_lost": 834203
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 8,
+            "pos_2_3": 16,
+            "pos_4_10": 25,
+            "pos_11_20": 29,
+            "pos_21_30": 40,
+            "pos_31_40": 53,
+            "pos_41_50": 37,
+            "pos_51_60": 31,
+            "pos_61_70": 29,
+            "pos_71_80": 32,
+            "pos_81_90": 27,
+            "pos_91_100": 8,
+            "etv": 17614.909,
+            "count": 335,
+            "estimated_paid_traffic_cost": 1811.61,
+            "is_new": 287,
+            "is_up": 27,
+            "is_down": 16
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 7,
+            "pos_2_3": 27,
+            "pos_4_10": 83,
+            "pos_11_20": 84,
+            "pos_21_30": 35,
+            "pos_31_40": 28,
+            "pos_41_50": 17,
+            "pos_51_60": 17,
+            "pos_61_70": 15,
+            "pos_71_80": 7,
+            "pos_81_90": 12,
+            "pos_91_100": 3,
+            "etv": 10687.78,
+            "count": 335,
+            "estimated_paid_traffic_cost": 384.234,
+            "is_new": 205,
+            "is_up": 45,
+            "is_down": 69
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "indiamart.com",
+        "avg_position": 37.038,
+        "sum_position": 11852,
+        "intersections": 320,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 57990,
+            "pos_2_3": 120180,
+            "pos_4_10": 357294,
+            "pos_11_20": 310927,
+            "pos_21_30": 190971,
+            "pos_31_40": 123829,
+            "pos_41_50": 78545,
+            "pos_51_60": 50000,
+            "pos_61_70": 34199,
+            "pos_71_80": 24090,
+            "pos_81_90": 17753,
+            "pos_91_100": 10435,
+            "etv": 52796992.992,
+            "count": 1376213,
+            "estimated_paid_traffic_cost": 9456200.614,
+            "is_new": 636250,
+            "is_up": 208838,
+            "is_down": 423069,
+            "is_lost": 953133
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 7,
+            "pos_2_3": 13,
+            "pos_4_10": 18,
+            "pos_11_20": 30,
+            "pos_21_30": 43,
+            "pos_31_40": 48,
+            "pos_41_50": 44,
+            "pos_51_60": 43,
+            "pos_61_70": 26,
+            "pos_71_80": 16,
+            "pos_81_90": 24,
+            "pos_91_100": 8,
+            "etv": 17909.404,
+            "count": 320,
+            "estimated_paid_traffic_cost": 2359.982,
+            "is_new": 274,
+            "is_up": 24,
+            "is_down": 15
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 1,
+            "pos_2_3": 9,
+            "pos_4_10": 38,
+            "pos_11_20": 60,
+            "pos_21_30": 47,
+            "pos_31_40": 38,
+            "pos_41_50": 29,
+            "pos_51_60": 34,
+            "pos_61_70": 21,
+            "pos_71_80": 16,
+            "pos_81_90": 20,
+            "pos_91_100": 7,
+            "etv": 2937.823,
+            "count": 320,
+            "estimated_paid_traffic_cost": 437.313,
+            "is_new": 168,
+            "is_up": 49,
+            "is_down": 92
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "ajio.com",
+        "avg_position": 24.589,
+        "sum_position": 7426,
+        "intersections": 302,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 1737,
+            "pos_2_3": 7391,
+            "pos_4_10": 46794,
+            "pos_11_20": 45366,
+            "pos_21_30": 24018,
+            "pos_31_40": 15820,
+            "pos_41_50": 11546,
+            "pos_51_60": 8737,
+            "pos_61_70": 6959,
+            "pos_71_80": 5456,
+            "pos_81_90": 4306,
+            "pos_91_100": 2675,
+            "etv": 9792934.723,
+            "count": 180805,
+            "estimated_paid_traffic_cost": 574814.057,
+            "is_new": 95956,
+            "is_up": 27682,
+            "is_down": 48590,
+            "is_lost": 187776
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 7,
+            "pos_2_3": 8,
+            "pos_4_10": 21,
+            "pos_11_20": 33,
+            "pos_21_30": 36,
+            "pos_31_40": 36,
+            "pos_41_50": 35,
+            "pos_51_60": 31,
+            "pos_61_70": 28,
+            "pos_71_80": 30,
+            "pos_81_90": 29,
+            "pos_91_100": 8,
+            "etv": 16846.795,
+            "count": 302,
+            "estimated_paid_traffic_cost": 1724.606,
+            "is_new": 268,
+            "is_up": 18,
+            "is_down": 13
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 4,
+            "pos_2_3": 17,
+            "pos_4_10": 93,
+            "pos_11_20": 73,
+            "pos_21_30": 28,
+            "pos_31_40": 20,
+            "pos_41_50": 18,
+            "pos_51_60": 12,
+            "pos_61_70": 15,
+            "pos_71_80": 11,
+            "pos_81_90": 8,
+            "pos_91_100": 3,
+            "etv": 21412.737,
+            "count": 302,
+            "estimated_paid_traffic_cost": 652.796,
+            "is_new": 135,
+            "is_up": 56,
+            "is_down": 95
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "abfrl.in",
+        "avg_position": 31.619,
+        "sum_position": 8221,
+        "intersections": 260,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 2748,
+            "pos_2_3": 4425,
+            "pos_4_10": 11252,
+            "pos_11_20": 10798,
+            "pos_21_30": 7545,
+            "pos_31_40": 6379,
+            "pos_41_50": 5501,
+            "pos_51_60": 4649,
+            "pos_61_70": 4124,
+            "pos_71_80": 3641,
+            "pos_81_90": 3260,
+            "pos_91_100": 2252,
+            "etv": 7438469.69,
+            "count": 66574,
+            "estimated_paid_traffic_cost": 333713.552,
+            "is_new": 35272,
+            "is_up": 12101,
+            "is_down": 15918,
+            "is_lost": 68063
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 1,
+            "pos_2_3": 7,
+            "pos_4_10": 10,
+            "pos_11_20": 25,
+            "pos_21_30": 32,
+            "pos_31_40": 35,
+            "pos_41_50": 34,
+            "pos_51_60": 31,
+            "pos_61_70": 27,
+            "pos_71_80": 27,
+            "pos_81_90": 26,
+            "pos_91_100": 5,
+            "etv": 6994.769,
+            "count": 260,
+            "estimated_paid_traffic_cost": 815.912,
+            "is_new": 234,
+            "is_up": 13,
+            "is_down": 10
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 6,
+            "pos_2_3": 14,
+            "pos_4_10": 47,
+            "pos_11_20": 54,
+            "pos_21_30": 35,
+            "pos_31_40": 25,
+            "pos_41_50": 19,
+            "pos_51_60": 12,
+            "pos_61_70": 16,
+            "pos_71_80": 15,
+            "pos_81_90": 8,
+            "pos_91_100": 9,
+            "etv": 40646.925,
+            "count": 260,
+            "estimated_paid_traffic_cost": 1231.365,
+            "is_new": 162,
+            "is_up": 53,
+            "is_down": 40
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "beyoung.in",
+        "avg_position": 31.884,
+        "sum_position": 8258,
+        "intersections": 259,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 230,
+            "pos_2_3": 752,
+            "pos_4_10": 3481,
+            "pos_11_20": 5276,
+            "pos_21_30": 3974,
+            "pos_31_40": 2826,
+            "pos_41_50": 2007,
+            "pos_51_60": 1569,
+            "pos_61_70": 1276,
+            "pos_71_80": 998,
+            "pos_81_90": 742,
+            "pos_91_100": 485,
+            "etv": 1485704.316,
+            "count": 23616,
+            "estimated_paid_traffic_cost": 246303.53,
+            "is_new": 15086,
+            "is_up": 4516,
+            "is_down": 3343,
+            "is_lost": 27576
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_1": 1,
+            "pos_2_3": 12,
+            "pos_4_10": 15,
+            "pos_11_20": 19,
+            "pos_21_30": 30,
+            "pos_31_40": 34,
+            "pos_41_50": 33,
+            "pos_51_60": 28,
+            "pos_61_70": 33,
+            "pos_71_80": 27,
+            "pos_81_90": 18,
+            "pos_91_100": 9,
+            "etv": 7656.481,
+            "count": 259,
+            "estimated_paid_traffic_cost": 912.451,
+            "is_new": 232,
+            "is_up": 15,
+            "is_down": 8
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 4,
+            "pos_2_3": 13,
+            "pos_4_10": 34,
+            "pos_11_20": 44,
+            "pos_21_30": 47,
+            "pos_31_40": 44,
+            "pos_41_50": 22,
+            "pos_51_60": 12,
+            "pos_61_70": 16,
+            "pos_71_80": 14,
+            "pos_81_90": 6,
+            "pos_91_100": 3,
+            "etv": 7027.172,
+            "count": 259,
+            "estimated_paid_traffic_cost": 558.702,
+            "is_new": 131,
+            "is_up": 78,
+            "is_down": 43
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "wyo.in",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 7583
+}
+{
+  "tool_name": "dataforseo_labs_google_competitors_domain",
+  "timestamp": "2025-12-01 13:40:22",
+  "data": {
+    "id": "12011010-1210-0386-0000-be7cdc00ebcd",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "domain": "strique.io",
+        "avg_position": 65.667,
+        "sum_position": 1576,
+        "intersections": 24,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 664.944,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 9,
+            "is_lost": 26
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 664.944,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 9
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 664.944,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 9
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "microsoft.com",
+        "avg_position": 40.136,
+        "sum_position": 883,
+        "intersections": 22,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 25098,
+            "pos_2_3": 18343,
+            "pos_4_10": 52684,
+            "pos_11_20": 54482,
+            "pos_21_30": 47636,
+            "pos_31_40": 46436,
+            "pos_41_50": 46220,
+            "pos_51_60": 44836,
+            "pos_61_70": 42520,
+            "pos_71_80": 39773,
+            "pos_81_90": 35277,
+            "pos_91_100": 24614,
+            "etv": 60204254.885,
+            "count": 477919,
+            "estimated_paid_traffic_cost": 60174388.804,
+            "is_new": 277798,
+            "is_up": 65866,
+            "is_down": 107880,
+            "is_lost": 564650
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 652.974,
+            "count": 22,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 12,
+            "is_up": 1,
+            "is_down": 9
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_11_20": 2,
+            "pos_21_30": 5,
+            "pos_31_40": 6,
+            "pos_41_50": 3,
+            "pos_51_60": 2,
+            "pos_61_70": 3,
+            "pos_81_90": 1,
+            "etv": 711.054,
+            "count": 22,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 2,
+            "is_up": 3,
+            "is_down": 17
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "metricool.com",
+        "avg_position": 21.091,
+        "sum_position": 464,
+        "intersections": 22,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 11,
+            "pos_2_3": 83,
+            "pos_4_10": 510,
+            "pos_11_20": 869,
+            "pos_21_30": 673,
+            "pos_31_40": 486,
+            "pos_41_50": 482,
+            "pos_51_60": 466,
+            "pos_61_70": 339,
+            "pos_71_80": 301,
+            "pos_81_90": 241,
+            "pos_91_100": 161,
+            "etv": 681691.739,
+            "count": 4622,
+            "estimated_paid_traffic_cost": 123806.965,
+            "is_new": 2023,
+            "is_up": 813,
+            "is_down": 1638,
+            "is_lost": 3470
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_21_30": 1,
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 662.466,
+            "count": 22,
+            "estimated_paid_traffic_cost": 61.261,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 7
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_4_10": 3,
+            "pos_11_20": 12,
+            "pos_21_30": 4,
+            "pos_31_40": 1,
+            "pos_51_60": 1,
+            "pos_91_100": 1,
+            "etv": 1342.74,
+            "count": 22,
+            "estimated_paid_traffic_cost": 104.244,
+            "is_new": 2,
+            "is_up": 4,
+            "is_down": 15
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "figma.com",
+        "avg_position": 10.286,
+        "sum_position": 216,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 914,
+            "pos_2_3": 2075,
+            "pos_4_10": 7053,
+            "pos_11_20": 7171,
+            "pos_21_30": 4825,
+            "pos_31_40": 4614,
+            "pos_41_50": 4647,
+            "pos_51_60": 4623,
+            "pos_61_70": 4514,
+            "pos_71_80": 4252,
+            "pos_81_90": 3871,
+            "pos_91_100": 2710,
+            "etv": 2916960.862,
+            "count": 51269,
+            "estimated_paid_traffic_cost": 636533.986,
+            "is_new": 24875,
+            "is_up": 10134,
+            "is_down": 13637,
+            "is_lost": 45735
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_4_10": 16,
+            "pos_11_20": 4,
+            "pos_51_60": 1,
+            "etv": 8247.502,
+            "count": 21,
+            "estimated_paid_traffic_cost": 847.779,
+            "is_new": 21
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "adobe.com",
+        "avg_position": 5.238,
+        "sum_position": 110,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 32238,
+            "pos_2_3": 80948,
+            "pos_4_10": 144170,
+            "pos_11_20": 86590,
+            "pos_21_30": 63393,
+            "pos_31_40": 53208,
+            "pos_41_50": 45465,
+            "pos_51_60": 37767,
+            "pos_61_70": 30895,
+            "pos_71_80": 25011,
+            "pos_81_90": 20647,
+            "pos_91_100": 13370,
+            "etv": 99137624.988,
+            "count": 633702,
+            "estimated_paid_traffic_cost": 13207856.49,
+            "is_new": 316124,
+            "is_up": 106259,
+            "is_down": 155027,
+            "is_lost": 549293
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_2_3": 15,
+            "pos_4_10": 5,
+            "pos_41_50": 1,
+            "etv": 29903.245,
+            "count": 21,
+            "estimated_paid_traffic_cost": 2718.035,
+            "is_new": 1,
+            "is_up": 5,
+            "is_down": 12
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "socialpilot.co",
+        "avg_position": 20.095,
+        "sum_position": 422,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 54,
+            "pos_2_3": 109,
+            "pos_4_10": 377,
+            "pos_11_20": 574,
+            "pos_21_30": 663,
+            "pos_31_40": 572,
+            "pos_41_50": 543,
+            "pos_51_60": 408,
+            "pos_61_70": 332,
+            "pos_71_80": 256,
+            "pos_81_90": 206,
+            "pos_91_100": 152,
+            "etv": 142859.333,
+            "count": 4246,
+            "estimated_paid_traffic_cost": 61033.32,
+            "is_new": 1556,
+            "is_up": 647,
+            "is_down": 1896,
+            "is_lost": 3732
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_4_10": 1,
+            "pos_11_20": 15,
+            "pos_21_30": 3,
+            "pos_51_60": 2,
+            "etv": 1108.243,
+            "count": 21,
+            "estimated_paid_traffic_cost": 78.768,
+            "is_new": 1,
+            "is_up": 8,
+            "is_down": 12
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "socialbee.com",
+        "avg_position": 26.238,
+        "sum_position": 551,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 5,
+            "pos_2_3": 29,
+            "pos_4_10": 232,
+            "pos_11_20": 470,
+            "pos_21_30": 407,
+            "pos_31_40": 383,
+            "pos_41_50": 304,
+            "pos_51_60": 233,
+            "pos_61_70": 235,
+            "pos_71_80": 193,
+            "pos_81_90": 154,
+            "pos_91_100": 115,
+            "etv": 32648.265,
+            "count": 2760,
+            "estimated_paid_traffic_cost": 9699.529,
+            "is_new": 1117,
+            "is_up": 489,
+            "is_down": 1061,
+            "is_lost": 1775
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_11_20": 7,
+            "pos_21_30": 7,
+            "pos_31_40": 6,
+            "pos_41_50": 1,
+            "etv": 759.715,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_up": 9,
+            "is_down": 11
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "bazaarvoice.com",
+        "avg_position": 42.524,
+        "sum_position": 893,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 2,
+            "pos_2_3": 6,
+            "pos_4_10": 45,
+            "pos_11_20": 77,
+            "pos_21_30": 81,
+            "pos_31_40": 93,
+            "pos_41_50": 70,
+            "pos_51_60": 59,
+            "pos_61_70": 60,
+            "pos_71_80": 56,
+            "pos_81_90": 37,
+            "pos_91_100": 26,
+            "etv": 5766.687,
+            "count": 612,
+            "estimated_paid_traffic_cost": 941.136,
+            "is_new": 215,
+            "is_up": 115,
+            "is_down": 263,
+            "is_lost": 325
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_11_20": 1,
+            "pos_21_30": 5,
+            "pos_31_40": 6,
+            "pos_41_50": 3,
+            "pos_51_60": 3,
+            "pos_61_70": 1,
+            "pos_71_80": 2,
+            "etv": 687.847,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_up": 11,
+            "is_down": 9
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "buffer.com",
+        "avg_position": 9,
+        "sum_position": 189,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 39,
+            "pos_2_3": 200,
+            "pos_4_10": 817,
+            "pos_11_20": 1157,
+            "pos_21_30": 989,
+            "pos_31_40": 956,
+            "pos_41_50": 956,
+            "pos_51_60": 931,
+            "pos_61_70": 829,
+            "pos_71_80": 754,
+            "pos_81_90": 610,
+            "pos_91_100": 424,
+            "etv": 442442.016,
+            "count": 8662,
+            "estimated_paid_traffic_cost": 169967.305,
+            "is_new": 3703,
+            "is_up": 1391,
+            "is_down": 3303,
+            "is_lost": 8852
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_4_10": 17,
+            "pos_11_20": 3,
+            "pos_31_40": 1,
+            "etv": 11176.093,
+            "count": 21,
+            "estimated_paid_traffic_cost": 1073.285,
+            "is_new": 2,
+            "is_up": 12,
+            "is_down": 7
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "domain": "canva.com",
+        "avg_position": 3.619,
+        "sum_position": 76,
+        "intersections": 21,
+        "full_domain_metrics": {
+          "organic": {
+            "pos_1": 12806,
+            "pos_2_3": 19079,
+            "pos_4_10": 40605,
+            "pos_11_20": 37069,
+            "pos_21_30": 34441,
+            "pos_31_40": 35449,
+            "pos_41_50": 34735,
+            "pos_51_60": 31590,
+            "pos_61_70": 28138,
+            "pos_71_80": 24140,
+            "pos_81_90": 19686,
+            "pos_91_100": 13206,
+            "etv": 37130731.877,
+            "count": 330944,
+            "estimated_paid_traffic_cost": 7729022.664,
+            "is_new": 164084,
+            "is_up": 63033,
+            "is_down": 81126,
+            "is_lost": 279571
+          }
+        },
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        },
+        "competitor_metrics": {
+          "organic": {
+            "pos_1": 2,
+            "pos_2_3": 7,
+            "pos_4_10": 12,
+            "etv": 30945.68,
+            "count": 21,
+            "estimated_paid_traffic_cost": 3077.314,
+            "is_new": 1,
+            "is_up": 12,
+            "is_down": 3
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 5860
+}

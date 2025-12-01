@@ -1,0 +1,374 @@
+{
+  "tool_name": "dataforseo_labs_google_relevant_pages",
+  "timestamp": "2025-11-21 16:25:41",
+  "data": {
+    "id": "11211255-1233-0385-0000-99b941ade939",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/collections/free-spirit",
+        "metrics": {
+          "organic": {
+            "pos_4_10": 5,
+            "pos_11_20": 15,
+            "pos_21_30": 20,
+            "pos_31_40": 23,
+            "pos_41_50": 24,
+            "pos_51_60": 22,
+            "pos_61_70": 18,
+            "pos_71_80": 12,
+            "pos_81_90": 12,
+            "pos_91_100": 6,
+            "etv": 289.372,
+            "count": 157,
+            "estimated_paid_traffic_cost": 22.23,
+            "is_new": 149,
+            "is_up": 3,
+            "is_down": 3
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/collections/women-t-shirt",
+        "metrics": {
+          "organic": {
+            "pos_2_3": 1,
+            "pos_4_10": 6,
+            "pos_11_20": 5,
+            "pos_21_30": 9,
+            "pos_31_40": 8,
+            "pos_41_50": 5,
+            "pos_51_60": 9,
+            "pos_61_70": 11,
+            "pos_71_80": 9,
+            "pos_81_90": 8,
+            "pos_91_100": 3,
+            "etv": 1991.478,
+            "count": 74,
+            "estimated_paid_traffic_cost": 52.034,
+            "is_new": 73,
+            "is_up": 1
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/pages/custom",
+        "metrics": {
+          "organic": {
+            "pos_11_20": 2,
+            "pos_21_30": 7,
+            "pos_31_40": 9,
+            "pos_41_50": 16,
+            "pos_51_60": 14,
+            "pos_61_70": 10,
+            "pos_71_80": 5,
+            "pos_81_90": 4,
+            "pos_91_100": 1,
+            "etv": 321.327,
+            "count": 68,
+            "estimated_paid_traffic_cost": 70.002,
+            "is_new": 66,
+            "is_down": 2
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/",
+        "metrics": {
+          "organic": {
+            "pos_1": 4,
+            "pos_4_10": 2,
+            "pos_11_20": 10,
+            "pos_21_30": 7,
+            "pos_31_40": 7,
+            "pos_41_50": 5,
+            "pos_51_60": 1,
+            "pos_61_70": 1,
+            "pos_71_80": 2,
+            "pos_81_90": 1,
+            "etv": 1073.563,
+            "count": 40,
+            "estimated_paid_traffic_cost": 189.191,
+            "is_new": 38,
+            "is_down": 1
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/collections/polos",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 3,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 5,
+            "pos_61_70": 3,
+            "pos_71_80": 4,
+            "pos_81_90": 7,
+            "pos_91_100": 1,
+            "etv": 226.8,
+            "count": 26,
+            "estimated_paid_traffic_cost": 8.575,
+            "is_new": 25,
+            "is_down": 1
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.wyo.in/clothing/women/mom-daughter-squad-kids-t-shirt",
+        "metrics": {
+          "organic": {
+            "pos_11_20": 7,
+            "pos_21_30": 1,
+            "pos_51_60": 1,
+            "etv": 10.036,
+            "count": 9,
+            "estimated_paid_traffic_cost": 1.015,
+            "is_new": 9
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/collections/t-shirt-dress",
+        "metrics": {
+          "organic": {
+            "pos_4_10": 1,
+            "pos_11_20": 1,
+            "pos_21_30": 1,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_81_90": 1,
+            "pos_91_100": 1,
+            "etv": 108.626,
+            "count": 8,
+            "estimated_paid_traffic_cost": 4.415,
+            "is_new": 8
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.wyo.in/customise/custom-t-shirts",
+        "metrics": {
+          "organic": {
+            "pos_2_3": 2,
+            "pos_11_20": 2,
+            "pos_41_50": 1,
+            "pos_71_80": 2,
+            "pos_81_90": 1,
+            "etv": 2815.792,
+            "count": 8,
+            "estimated_paid_traffic_cost": 587.737,
+            "is_new": 2,
+            "is_up": 3,
+            "is_down": 3
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://wyo.in/collections/women",
+        "metrics": {
+          "organic": {
+            "pos_2_3": 1,
+            "pos_4_10": 2,
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 1,
+            "pos_61_70": 1,
+            "etv": 162.455,
+            "count": 7,
+            "estimated_paid_traffic_cost": 10.531,
+            "is_new": 7
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.wyo.in/bulati-hain-t-shirt",
+        "metrics": {
+          "organic": {
+            "pos_2_3": 3,
+            "pos_31_40": 1,
+            "etv": 521.23,
+            "count": 4,
+            "estimated_paid_traffic_cost": 49.423,
+            "is_new": 2,
+            "is_up": 2
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "wyo.in",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 1976
+}
+{
+  "tool_name": "dataforseo_labs_google_relevant_pages",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0385-0000-da9ab1b79108",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 2,
+            "pos_51_60": 2,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 660.345,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 13,
+            "is_up": 1,
+            "is_down": 7
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/how-to-delete-fb-business-page",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 1,
+            "etv": 3.717,
+            "count": 3,
+            "estimated_paid_traffic_cost": 0.186,
+            "is_down": 3
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 410
+}
+{
+  "tool_name": "dataforseo_labs_google_relevant_pages",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0385-0000-b16cf69cc6e6",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 2,
+            "pos_51_60": 2,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 660.345,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 13,
+            "is_up": 1,
+            "is_down": 7
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/how-to-delete-fb-business-page",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 1,
+            "etv": 3.717,
+            "count": 3,
+            "estimated_paid_traffic_cost": 0.186,
+            "is_down": 3
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 413
+}
+{
+  "tool_name": "dataforseo_labs_google_relevant_pages",
+  "timestamp": "2025-12-01 13:40:12",
+  "data": {
+    "id": "12011010-1210-0385-0000-de4c78e5f184",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/instagram-post-sizes-dimensions-tips",
+        "metrics": {
+          "organic": {
+            "pos_31_40": 1,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 661.227,
+            "count": 21,
+            "estimated_paid_traffic_cost": 61.199,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 6
+          }
+        }
+      },
+      {
+        "se_type": "google",
+        "page_address": "https://www.strique.io/blogs/how-to-delete-fb-business-page",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 1,
+            "etv": 3.717,
+            "count": 3,
+            "estimated_paid_traffic_cost": 0.186,
+            "is_down": 3
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 413
+}

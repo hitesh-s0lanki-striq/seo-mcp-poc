@@ -6,6 +6,8 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage
 from src.utils.tool_usage_tracker import get_tracker
 from src.instructions.seo_agent_instruction import get_seo_agent_instructions
+from src.utils.config import MODEL_PRICES_USD
+from src.utils.llm_utils import get_model_name_from_message
 
 # Try to import OpenAI error classes - they may be in different locations
 try:
@@ -112,6 +114,120 @@ class AppUI:
                 langchain_messages.append(AIMessage(content=msg["content"]))
         return langchain_messages
     
+    def _update_usage_from_message(self, message):
+        """Extract usage metadata from an AI message and update session state."""
+        if not isinstance(message, AIMessage):
+            return
+        
+        usage = getattr(message, "usage_metadata", None) or {}
+        if not usage:
+            return
+        
+        # Initialize if not present
+        if "llm_usage" not in st.session_state:
+            st.session_state.llm_usage = {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "cost_usd": 0.0,
+            }
+        
+        input_tokens = int(usage.get("input_tokens", 0))
+        output_tokens = int(usage.get("output_tokens", 0))
+        total_tokens = int(usage.get("total_tokens", input_tokens + output_tokens))
+        
+        model_name = get_model_name_from_message(message)
+        pricing = MODEL_PRICES_USD.get(model_name)
+        
+        call_cost = 0.0
+        if pricing:
+            call_cost = (
+                (input_tokens / 1000.0) * pricing["input"]
+                + (output_tokens / 1000.0) * pricing["output"]
+            )
+        
+        # Update session state
+        st.session_state.llm_usage["input_tokens"] += input_tokens
+        st.session_state.llm_usage["output_tokens"] += output_tokens
+        st.session_state.llm_usage["total_tokens"] += total_tokens
+        st.session_state.llm_usage["cost_usd"] += call_cost
+        
+        # Update the display if placeholder exists
+        if "usage_placeholder" in st.session_state:
+            try:
+                self._display_usage_stats(st.session_state.usage_placeholder)
+            except Exception:
+                pass
+    
+    def _display_usage_stats(self, placeholder=None):
+        """Display LLM usage statistics (tokens and cost) in the sidebar."""
+        if "llm_usage" not in st.session_state:
+            st.session_state.llm_usage = {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "cost_usd": 0.0,
+            }
+        
+        usage = st.session_state.llm_usage
+        
+        if placeholder:
+            # Use container for real-time updates during streaming
+            # Streamlit will update this during async operations
+            with placeholder.container():
+                st.header("📊 Usage Statistics")
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.metric("Total Tokens", f"{usage['total_tokens']:,}")
+                with col2:
+                    st.metric("Total Cost", f"${usage['cost_usd']:.4f}")
+                
+                # Show breakdown in expander
+                with st.expander("📈 Token Breakdown", expanded=False):
+                    st.metric("Input Tokens", f"{usage['input_tokens']:,}")
+                    st.metric("Output Tokens", f"{usage['output_tokens']:,}")
+                    if usage['total_tokens'] > 0:
+                        input_pct = (usage['input_tokens'] / usage['total_tokens']) * 100
+                        output_pct = (usage['output_tokens'] / usage['total_tokens']) * 100
+                        st.caption(f"Input: {input_pct:.1f}% | Output: {output_pct:.1f}%")
+                
+                # Reset button for usage stats
+                if st.button("🔄 Reset Usage Stats", use_container_width=True, key="reset_usage_btn"):
+                    st.session_state.llm_usage = {
+                        "input_tokens": 0,
+                        "output_tokens": 0,
+                        "total_tokens": 0,
+                        "cost_usd": 0.0,
+                    }
+                    st.rerun()
+        else:
+            # Fallback: display directly (for initial render)
+            st.header("📊 Usage Statistics")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.metric("Total Tokens", f"{usage['total_tokens']:,}")
+            with col2:
+                st.metric("Total Cost", f"${usage['cost_usd']:.4f}")
+            
+            # Show breakdown in expander
+            with st.expander("📈 Token Breakdown", expanded=False):
+                st.metric("Input Tokens", f"{usage['input_tokens']:,}")
+                st.metric("Output Tokens", f"{usage['output_tokens']:,}")
+                if usage['total_tokens'] > 0:
+                    input_pct = (usage['input_tokens'] / usage['total_tokens']) * 100
+                    output_pct = (usage['output_tokens'] / usage['total_tokens']) * 100
+                    st.caption(f"Input: {input_pct:.1f}% | Output: {output_pct:.1f}%")
+            
+            # Reset button for usage stats
+            if st.button("🔄 Reset Usage Stats", use_container_width=True, key="reset_usage_btn"):
+                st.session_state.llm_usage = {
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "total_tokens": 0,
+                    "cost_usd": 0.0,
+                }
+                st.rerun()
+    
     async def _process_message(self, user_message: str):
         """Process a user message and return the agent's response."""
         try:
@@ -184,6 +300,7 @@ class AppUI:
             tool_calls_shown = set()
             tool_call_to_step = {}  # Map tool_call_id to step index
             spinner_shown = False
+            processed_message_ids = set()  # Track processed messages to avoid double-counting usage
             
             # Stream the agent's response
             async for chunk in st.session_state.seo_agent.stream(langchain_messages):
@@ -259,6 +376,13 @@ class AppUI:
                                     )
                                 except Exception:
                                     pass
+                            
+                            # Also update usage stats display when tool results are processed
+                            if "usage_placeholder" in st.session_state:
+                                try:
+                                    self._display_usage_stats(st.session_state.usage_placeholder)
+                                except Exception:
+                                    pass
 
                     # --- AI CONTENT ---
                     if hasattr(current_message, "content") and current_message.content:
@@ -266,6 +390,19 @@ class AppUI:
                         if message_type == "ai" or (
                             not message_type and not hasattr(current_message, "tool_call_id")
                         ):
+                            # Update usage stats from this message (only once per message)
+                            message_id = id(current_message)
+                            if message_id not in processed_message_ids:
+                                self._update_usage_from_message(current_message)
+                                processed_message_ids.add(message_id)
+                                
+                                # Force immediate display update after usage update
+                                if "usage_placeholder" in st.session_state:
+                                    try:
+                                        self._display_usage_stats(st.session_state.usage_placeholder)
+                                    except Exception:
+                                        pass
+                            
                             content = current_message.content
                             
                             # ⛔ Skip AI messages that are just the previous turn's final answer
@@ -285,10 +422,27 @@ class AppUI:
                             if response_placeholder:
                                 response_placeholder.markdown(full_response)
 
+            # Process all messages one more time to ensure we capture all usage data
+            # This helps catch any usage metadata we might have missed during streaming
+            if "messages" in chunk:
+                for msg in chunk["messages"]:
+                    if isinstance(msg, AIMessage):
+                        message_id = id(msg)
+                        if message_id not in processed_message_ids:
+                            self._update_usage_from_message(msg)
+                            processed_message_ids.add(message_id)
+            
             # Final update of sidebar stats after streaming completes
             if "stats_placeholder" in st.session_state:
                 try:
                     self._display_tool_usage_stats(st.session_state.stats_placeholder)
+                except Exception:
+                    pass
+            
+            # Final update of usage stats after streaming completes
+            if "usage_placeholder" in st.session_state:
+                try:
+                    self._display_usage_stats(st.session_state.usage_placeholder)
                 except Exception:
                     pass
             
@@ -565,6 +719,24 @@ class AppUI:
         
         # Sidebar configuration
         with st.sidebar:
+            # Initialize LLM usage tracking in session state if not present
+            if "llm_usage" not in st.session_state:
+                st.session_state.llm_usage = {
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "total_tokens": 0,
+                    "cost_usd": 0.0,
+                }
+            
+            # Create placeholder for usage stats (for real-time updates)
+            if "usage_placeholder" not in st.session_state:
+                st.session_state.usage_placeholder = st.empty()
+            
+            # Display usage stats (will be updated in real-time during streaming)
+            self._display_usage_stats(st.session_state.usage_placeholder)
+            
+            st.divider()
+            
             st.header("⚙️ Configuration")
             model_options = [
                 "gpt-5.1",

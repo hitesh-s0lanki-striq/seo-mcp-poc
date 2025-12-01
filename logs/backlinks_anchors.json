@@ -1,0 +1,1541 @@
+{
+  "tool_name": "backlinks_anchors",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0272-0000-726054a4414c",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_anchor",
+        "rank": 158,
+        "backlinks": 5204,
+        "first_seen": "2025-01-24 19:33:12 +00:00",
+        "backlinks_spam_score": 10,
+        "referring_domains": 13,
+        "referring_domains_nofollow": 6,
+        "referring_main_domains": 13,
+        "referring_main_domains_nofollow": 6,
+        "referring_ips": 13,
+        "referring_subnets": 13,
+        "referring_pages": 5202,
+        "referring_pages_nofollow": 5071,
+        "referring_links_tld": {
+          "net": 4963,
+          "tv": 122,
+          "ai": 66,
+          "com": 42,
+          "top": 9
+        },
+        "referring_links_types": {
+          "anchor": 5193,
+          "image": 5,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5071,
+          "noopener": 55,
+          "external": 49,
+          "noreferrer": 6
+        },
+        "referring_links_platform_types": {
+          "unknown": 5188,
+          "organization": 6,
+          "ecommerce": 4
+        },
+        "referring_links_semantic_locations": {
+          "main": 4974,
+          "": 158,
+          "article": 49,
+          "section": 21
+        },
+        "referring_links_countries": {
+          "UA": 2865,
+          "DE": 1999,
+          "TV": 122,
+          "WW": 102,
+          "AI": 66,
+          "US": 30,
+          "": 18
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "打开网站",
+        "rank": 126,
+        "backlinks": 16,
+        "first_seen": "2025-07-11 05:26:24 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 9,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 9
+        },
+        "referring_links_types": {
+          "anchor": 9
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "unknown": 6,
+          "ecommerce": 3
+        },
+        "referring_links_semantic_locations": {
+          "main": 6,
+          "": 3
+        },
+        "referring_links_countries": {
+          "AI": 9
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://www.strique.io/about-us",
+        "rank": 88,
+        "backlinks": 13,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 4,
+        "referring_main_domains": 3,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 13,
+        "referring_links_tld": {
+          "com": 7,
+          "net": 5,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 13
+        },
+        "referring_links_attributes": {
+          "ugc": 7,
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 12,
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 5,
+          "": 2
+        },
+        "referring_links_countries": {
+          "US": 10,
+          "": 2,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique",
+        "rank": 83,
+        "backlinks": 20,
+        "first_seen": "2025-06-06 15:25:20 +00:00",
+        "backlinks_spam_score": 4,
+        "referring_domains": 7,
+        "referring_main_domains": 7,
+        "referring_ips": 6,
+        "referring_subnets": 6,
+        "referring_pages": 20,
+        "referring_links_tld": {
+          "com": 12,
+          "art": 5,
+          "io": 3
+        },
+        "referring_links_types": {
+          "anchor": 20
+        },
+        "referring_links_attributes": {
+          "noopener": 6,
+          "noreferrer": 2
+        },
+        "referring_links_platform_types": {
+          "organization": 14,
+          "unknown": 6
+        },
+        "referring_links_semantic_locations": {
+          "main": 16,
+          "": 3,
+          "article": 1
+        },
+        "referring_links_countries": {
+          "": 15,
+          "IO": 3,
+          "US": 2
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Visit website",
+        "rank": 76,
+        "backlinks": 14,
+        "first_seen": "2025-02-06 11:08:29 +00:00",
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 8,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "com": 7,
+          "co": 1
+        },
+        "referring_links_types": {
+          "anchor": 8
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5,
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 2
+        },
+        "referring_links_countries": {
+          "US": 7,
+          "CO": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://strique.io",
+        "rank": 62,
+        "backlinks": 5,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 5,
+        "referring_links_tld": {
+          "ai": 4,
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 5
+        },
+        "referring_links_attributes": {
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 4,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 4,
+          "": 1
+        },
+        "referring_links_countries": {
+          "AI": 4,
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Open site",
+        "rank": 54,
+        "backlinks": 5,
+        "first_seen": "2025-06-13 05:08:14 +00:00",
+        "backlinks_spam_score": 21,
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 4,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 2,
+          "top": 1,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 3,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "": 3,
+          "main": 1
+        },
+        "referring_links_countries": {
+          "AI": 2,
+          "": 1,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Launch",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique’s official website",
+        "rank": 51,
+        "backlinks": 3,
+        "first_seen": "2025-07-31 12:14:53 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_attributes": {
+          "noopener": 1
+        },
+        "referring_links_platform_types": {
+          "blogs": 1,
+          "cms": 1,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "IN": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "🎯 strique.io",
+        "rank": 51,
+        "backlinks": 1,
+        "first_seen": "2025-06-23 01:20:58 +00:00",
+        "backlinks_spam_score": 25,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 3153
+}
+{
+  "tool_name": "backlinks_anchors",
+  "timestamp": "2025-12-01 15:23:40",
+  "data": {
+    "id": "12011153-1210-0272-0000-79a52aa72fc5",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_anchor",
+        "rank": 159,
+        "backlinks": 5212,
+        "first_seen": "2025-01-24 19:33:12 +00:00",
+        "backlinks_spam_score": 10,
+        "referring_domains": 13,
+        "referring_domains_nofollow": 6,
+        "referring_main_domains": 13,
+        "referring_main_domains_nofollow": 6,
+        "referring_ips": 13,
+        "referring_subnets": 13,
+        "referring_pages": 5210,
+        "referring_pages_nofollow": 5077,
+        "referring_links_tld": {
+          "net": 4963,
+          "tv": 124,
+          "ai": 72,
+          "com": 42,
+          "top": 9
+        },
+        "referring_links_types": {
+          "anchor": 5201,
+          "image": 5,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5077,
+          "noopener": 55,
+          "external": 49,
+          "noreferrer": 6
+        },
+        "referring_links_platform_types": {
+          "unknown": 5196,
+          "organization": 6,
+          "ecommerce": 4
+        },
+        "referring_links_semantic_locations": {
+          "main": 4974,
+          "": 160,
+          "article": 49,
+          "section": 27
+        },
+        "referring_links_countries": {
+          "UA": 2865,
+          "DE": 1757,
+          "WW": 344,
+          "TV": 124,
+          "AI": 72,
+          "US": 30,
+          "": 18
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "打开网站",
+        "rank": 126,
+        "backlinks": 16,
+        "first_seen": "2025-07-11 05:26:24 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 9,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 9
+        },
+        "referring_links_types": {
+          "anchor": 9
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "unknown": 6,
+          "ecommerce": 3
+        },
+        "referring_links_semantic_locations": {
+          "main": 6,
+          "": 3
+        },
+        "referring_links_countries": {
+          "AI": 9
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://www.strique.io/about-us",
+        "rank": 88,
+        "backlinks": 13,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 4,
+        "referring_main_domains": 3,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 13,
+        "referring_links_tld": {
+          "com": 7,
+          "net": 5,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 13
+        },
+        "referring_links_attributes": {
+          "ugc": 7,
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 12,
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 5,
+          "": 2
+        },
+        "referring_links_countries": {
+          "US": 10,
+          "": 2,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique",
+        "rank": 82,
+        "backlinks": 21,
+        "first_seen": "2025-06-06 15:25:20 +00:00",
+        "backlinks_spam_score": 3,
+        "referring_domains": 8,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 8,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 7,
+        "referring_subnets": 7,
+        "referring_pages": 21,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 12,
+          "art": 5,
+          "io": 3,
+          "ai": 1
+        },
+        "referring_links_types": {
+          "anchor": 21
+        },
+        "referring_links_attributes": {
+          "noopener": 6,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 14,
+          "unknown": 7
+        },
+        "referring_links_semantic_locations": {
+          "main": 17,
+          "": 3,
+          "article": 1
+        },
+        "referring_links_countries": {
+          "": 15,
+          "IO": 3,
+          "US": 2,
+          "AI": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Visit website",
+        "rank": 76,
+        "backlinks": 14,
+        "first_seen": "2025-02-06 11:08:29 +00:00",
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 8,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "com": 7,
+          "co": 1
+        },
+        "referring_links_types": {
+          "anchor": 8
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5,
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 2
+        },
+        "referring_links_countries": {
+          "US": 7,
+          "CO": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://strique.io",
+        "rank": 63,
+        "backlinks": 5,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 5,
+        "referring_links_tld": {
+          "ai": 4,
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 5
+        },
+        "referring_links_attributes": {
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 2,
+          "unknown": 2,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 4,
+          "": 1
+        },
+        "referring_links_countries": {
+          "AI": 4,
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Open site",
+        "rank": 54,
+        "backlinks": 5,
+        "first_seen": "2025-06-13 05:08:14 +00:00",
+        "backlinks_spam_score": 21,
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 4,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 2,
+          "top": 1,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 3,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "": 3,
+          "main": 1
+        },
+        "referring_links_countries": {
+          "AI": 2,
+          "": 1,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Launch",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique’s official website",
+        "rank": 51,
+        "backlinks": 3,
+        "first_seen": "2025-07-31 12:14:53 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_attributes": {
+          "noopener": 1
+        },
+        "referring_links_platform_types": {
+          "blogs": 1,
+          "cms": 1,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "IN": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "🎯 strique.io",
+        "rank": 51,
+        "backlinks": 1,
+        "first_seen": "2025-06-23 01:20:58 +00:00",
+        "backlinks_spam_score": 25,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 3230
+}
+{
+  "tool_name": "backlinks_anchors",
+  "timestamp": "2025-12-01 15:29:29",
+  "data": {
+    "id": "12011159-1210-0272-0000-0a61f71c1890",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_anchor",
+        "rank": 159,
+        "backlinks": 5212,
+        "first_seen": "2025-01-24 19:33:12 +00:00",
+        "backlinks_spam_score": 10,
+        "referring_domains": 13,
+        "referring_domains_nofollow": 6,
+        "referring_main_domains": 13,
+        "referring_main_domains_nofollow": 6,
+        "referring_ips": 13,
+        "referring_subnets": 13,
+        "referring_pages": 5210,
+        "referring_pages_nofollow": 5077,
+        "referring_links_tld": {
+          "net": 4963,
+          "tv": 124,
+          "ai": 72,
+          "com": 42,
+          "top": 9
+        },
+        "referring_links_types": {
+          "anchor": 5201,
+          "image": 5,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5077,
+          "noopener": 55,
+          "external": 49,
+          "noreferrer": 6
+        },
+        "referring_links_platform_types": {
+          "unknown": 5196,
+          "organization": 6,
+          "ecommerce": 4
+        },
+        "referring_links_semantic_locations": {
+          "main": 4974,
+          "": 160,
+          "article": 49,
+          "section": 27
+        },
+        "referring_links_countries": {
+          "UA": 2865,
+          "DE": 1757,
+          "WW": 344,
+          "TV": 124,
+          "AI": 72,
+          "US": 30,
+          "": 18
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "打开网站",
+        "rank": 126,
+        "backlinks": 16,
+        "first_seen": "2025-07-11 05:26:24 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 9,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 9
+        },
+        "referring_links_types": {
+          "anchor": 9
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "unknown": 6,
+          "ecommerce": 3
+        },
+        "referring_links_semantic_locations": {
+          "main": 6,
+          "": 3
+        },
+        "referring_links_countries": {
+          "AI": 9
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://www.strique.io/about-us",
+        "rank": 88,
+        "backlinks": 13,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 4,
+        "referring_main_domains": 3,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 13,
+        "referring_links_tld": {
+          "com": 7,
+          "net": 5,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 13
+        },
+        "referring_links_attributes": {
+          "ugc": 7,
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 12,
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 5,
+          "": 2
+        },
+        "referring_links_countries": {
+          "US": 10,
+          "": 2,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique",
+        "rank": 82,
+        "backlinks": 21,
+        "first_seen": "2025-06-06 15:25:20 +00:00",
+        "backlinks_spam_score": 3,
+        "referring_domains": 8,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 8,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 7,
+        "referring_subnets": 7,
+        "referring_pages": 21,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 12,
+          "art": 5,
+          "io": 3,
+          "ai": 1
+        },
+        "referring_links_types": {
+          "anchor": 21
+        },
+        "referring_links_attributes": {
+          "noopener": 6,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 14,
+          "unknown": 7
+        },
+        "referring_links_semantic_locations": {
+          "main": 17,
+          "": 3,
+          "article": 1
+        },
+        "referring_links_countries": {
+          "": 15,
+          "IO": 3,
+          "US": 2,
+          "AI": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Visit website",
+        "rank": 76,
+        "backlinks": 14,
+        "first_seen": "2025-02-06 11:08:29 +00:00",
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 8,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "com": 7,
+          "co": 1
+        },
+        "referring_links_types": {
+          "anchor": 8
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5,
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 2
+        },
+        "referring_links_countries": {
+          "US": 7,
+          "CO": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://strique.io",
+        "rank": 63,
+        "backlinks": 5,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 5,
+        "referring_links_tld": {
+          "ai": 4,
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 5
+        },
+        "referring_links_attributes": {
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 2,
+          "unknown": 2,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 4,
+          "": 1
+        },
+        "referring_links_countries": {
+          "AI": 4,
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Open site",
+        "rank": 54,
+        "backlinks": 5,
+        "first_seen": "2025-06-13 05:08:14 +00:00",
+        "backlinks_spam_score": 21,
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 4,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 2,
+          "top": 1,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 3,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "": 3,
+          "main": 1
+        },
+        "referring_links_countries": {
+          "AI": 2,
+          "": 1,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Launch",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique’s official website",
+        "rank": 51,
+        "backlinks": 3,
+        "first_seen": "2025-07-31 12:14:53 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_attributes": {
+          "noopener": 1
+        },
+        "referring_links_platform_types": {
+          "blogs": 1,
+          "cms": 1,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "IN": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "🎯 strique.io",
+        "rank": 51,
+        "backlinks": 1,
+        "first_seen": "2025-06-23 01:20:58 +00:00",
+        "backlinks_spam_score": 25,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 3230
+}
+{
+  "tool_name": "backlinks_anchors",
+  "timestamp": "2025-12-01 15:49:58",
+  "data": {
+    "id": "12011219-1210-0272-0000-8b7abe384546",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "type": "backlinks_anchor",
+        "rank": 159,
+        "backlinks": 5212,
+        "first_seen": "2025-01-24 19:33:12 +00:00",
+        "backlinks_spam_score": 10,
+        "referring_domains": 13,
+        "referring_domains_nofollow": 6,
+        "referring_main_domains": 13,
+        "referring_main_domains_nofollow": 6,
+        "referring_ips": 13,
+        "referring_subnets": 13,
+        "referring_pages": 5210,
+        "referring_pages_nofollow": 5077,
+        "referring_links_tld": {
+          "net": 4963,
+          "tv": 124,
+          "ai": 72,
+          "com": 42,
+          "top": 9
+        },
+        "referring_links_types": {
+          "anchor": 5201,
+          "image": 5,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 5077,
+          "noopener": 55,
+          "external": 49,
+          "noreferrer": 6
+        },
+        "referring_links_platform_types": {
+          "unknown": 5196,
+          "organization": 6,
+          "ecommerce": 4
+        },
+        "referring_links_semantic_locations": {
+          "main": 4974,
+          "": 160,
+          "article": 49,
+          "section": 27
+        },
+        "referring_links_countries": {
+          "UA": 2865,
+          "DE": 1757,
+          "WW": 344,
+          "TV": 124,
+          "AI": 72,
+          "US": 30,
+          "": 18
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "打开网站",
+        "rank": 126,
+        "backlinks": 16,
+        "first_seen": "2025-07-11 05:26:24 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 9,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 9
+        },
+        "referring_links_types": {
+          "anchor": 9
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "unknown": 6,
+          "ecommerce": 3
+        },
+        "referring_links_semantic_locations": {
+          "main": 6,
+          "": 3
+        },
+        "referring_links_countries": {
+          "AI": 9
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://www.strique.io/about-us",
+        "rank": 88,
+        "backlinks": 13,
+        "first_seen": "2025-02-13 12:27:56 +00:00",
+        "referring_domains": 4,
+        "referring_main_domains": 3,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 13,
+        "referring_links_tld": {
+          "com": 7,
+          "net": 5,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 13
+        },
+        "referring_links_attributes": {
+          "ugc": 7,
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "unknown": 12,
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 5,
+          "": 2
+        },
+        "referring_links_countries": {
+          "US": 10,
+          "": 2,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique",
+        "rank": 82,
+        "backlinks": 21,
+        "first_seen": "2025-06-06 15:25:20 +00:00",
+        "backlinks_spam_score": 3,
+        "referring_domains": 8,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 8,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 7,
+        "referring_subnets": 7,
+        "referring_pages": 21,
+        "referring_pages_nofollow": 1,
+        "referring_links_tld": {
+          "com": 12,
+          "art": 5,
+          "io": 3,
+          "ai": 1
+        },
+        "referring_links_types": {
+          "anchor": 21
+        },
+        "referring_links_attributes": {
+          "noopener": 6,
+          "noreferrer": 2,
+          "nofollow": 1
+        },
+        "referring_links_platform_types": {
+          "organization": 14,
+          "unknown": 7
+        },
+        "referring_links_semantic_locations": {
+          "main": 17,
+          "": 3,
+          "article": 1
+        },
+        "referring_links_countries": {
+          "": 15,
+          "IO": 3,
+          "US": 2,
+          "AI": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Visit website",
+        "rank": 76,
+        "backlinks": 14,
+        "first_seen": "2025-02-06 11:08:29 +00:00",
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 8,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "com": 7,
+          "co": 1
+        },
+        "referring_links_types": {
+          "anchor": 8
+        },
+        "referring_links_attributes": {
+          "noreferrer": 5,
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 4,
+          "unknown": 4
+        },
+        "referring_links_semantic_locations": {
+          "section": 6,
+          "main": 2
+        },
+        "referring_links_countries": {
+          "US": 7,
+          "CO": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "https://strique.io",
+        "rank": 63,
+        "backlinks": 5,
+        "first_seen": "2025-09-22 22:35:47 +00:00",
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "referring_ips": 2,
+        "referring_subnets": 2,
+        "referring_pages": 5,
+        "referring_links_tld": {
+          "ai": 4,
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 5
+        },
+        "referring_links_attributes": {
+          "noopener": 5,
+          "noreferrer": 5
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 2,
+          "unknown": 2,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 4,
+          "": 1
+        },
+        "referring_links_countries": {
+          "AI": 4,
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Open site",
+        "rank": 54,
+        "backlinks": 5,
+        "first_seen": "2025-06-13 05:08:14 +00:00",
+        "backlinks_spam_score": 21,
+        "referring_domains": 3,
+        "referring_domains_nofollow": 1,
+        "referring_main_domains": 3,
+        "referring_main_domains_nofollow": 1,
+        "referring_ips": 3,
+        "referring_subnets": 3,
+        "referring_pages": 4,
+        "referring_pages_nofollow": 2,
+        "referring_links_tld": {
+          "ai": 2,
+          "top": 1,
+          "tv": 1
+        },
+        "referring_links_types": {
+          "anchor": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 2
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 3,
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "": 3,
+          "main": 1
+        },
+        "referring_links_countries": {
+          "AI": 2,
+          "": 1,
+          "TV": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Launch",
+        "rank": 51,
+        "backlinks": 2,
+        "first_seen": "2025-11-09 02:46:52 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "pro": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "ecommerce": 1
+        },
+        "referring_links_semantic_locations": {
+          "section": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "Strique’s official website",
+        "rank": 51,
+        "backlinks": 3,
+        "first_seen": "2025-07-31 12:14:53 +00:00",
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_attributes": {
+          "noopener": 1
+        },
+        "referring_links_platform_types": {
+          "blogs": 1,
+          "cms": 1,
+          "organization": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "IN": 1
+        }
+      },
+      {
+        "type": "backlinks_anchor",
+        "anchor": "🎯 strique.io",
+        "rank": 51,
+        "backlinks": 1,
+        "first_seen": "2025-06-23 01:20:58 +00:00",
+        "backlinks_spam_score": 25,
+        "referring_domains": 1,
+        "referring_main_domains": 1,
+        "referring_ips": 1,
+        "referring_subnets": 1,
+        "referring_pages": 1,
+        "referring_links_tld": {
+          "com": 1
+        },
+        "referring_links_types": {
+          "anchor": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 1
+        },
+        "referring_links_semantic_locations": {
+          "main": 1
+        },
+        "referring_links_countries": {
+          "": 1
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "limit": 10
+  },
+  "token_count": 3227
+}

@@ -1,0 +1,438 @@
+{
+  "tool_name": "dataforseo_labs_google_keywords_for_site",
+  "timestamp": "2025-11-21 16:31:52",
+  "data": {
+    "id": "11211301-1233-0398-0000-14bffd40f950",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "keyword": "can you hide your likes on instagram",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-10 14:53:46 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 50,
+          "categories": [
+            10019,
+            10168,
+            10885,
+            12204,
+            13371
+          ],
+          "monthly_searches": {
+            "2025-10": 90,
+            "2025-09": 50,
+            "2025-08": 70,
+            "2025-07": 50,
+            "2025-06": 50,
+            "2025-05": 50,
+            "2025-04": 50,
+            "2025-03": 50,
+            "2025-02": 40,
+            "2025-01": 50,
+            "2024-12": 40,
+            "2024-11": 30
+          },
+          "search_volume_trend": {
+            "monthly": 80,
+            "quarterly": 29,
+            "yearly": 80
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-03-06 06:09:10 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "how to boost your facebook business page",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-13 10:52:50 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10019,
+            10168,
+            10885,
+            12204,
+            13371
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-03": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "foreign_intent": [
+            "navigational"
+          ],
+          "last_updated_time": "2024-06-06 18:39:27 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "how to boost your page on facebook",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-09 01:14:20 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10007,
+            11496,
+            13418
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-09": 10,
+            "2025-08": 10,
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-03": 10,
+            "2025-02": 10,
+            "2025-01": 20,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-03-07 00:23:37 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "can you hide your friend list on facebook",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-08 10:55:41 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10019,
+            10168,
+            10885,
+            12204,
+            13371
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-09": 10,
+            "2025-08": 10,
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-03": 10,
+            "2025-02": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2024-01-17 17:07:26 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "can you see who views your facebook page",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-08 04:59:13 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10019,
+            10168,
+            10885,
+            12204,
+            13371
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-09": 10,
+            "2025-08": 10,
+            "2025-07": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-03": 10,
+            "2025-02": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-09-04 05:18:25 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "tips for facebook page",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-11 19:03:22 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10007,
+            11496,
+            13418
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-09": 10,
+            "2025-08": 10,
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-03": 10,
+            "2025-02": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-09-03 13:36:15 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "what is boost in facebook page",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-08 14:32:37 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 10,
+          "categories": [
+            10011,
+            10019,
+            10168,
+            10885,
+            12197,
+            12211,
+            13113
+          ],
+          "monthly_searches": {
+            "2025-10": 10,
+            "2025-09": 10,
+            "2025-08": 10,
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-05": 10,
+            "2025-04": 10,
+            "2025-02": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2024-02-09 13:07:39 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "how many friends can you have on facebook",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-07 09:03:01 +00:00",
+          "competition_level": "LOW",
+          "search_volume": 40,
+          "categories": [
+            10007,
+            11496,
+            13418
+          ],
+          "monthly_searches": {
+            "2025-10": 70,
+            "2025-09": 50,
+            "2025-08": 50,
+            "2025-07": 30,
+            "2025-06": 30,
+            "2025-05": 30,
+            "2025-04": 40,
+            "2025-03": 40,
+            "2025-02": 40,
+            "2025-01": 50,
+            "2024-12": 40,
+            "2024-11": 30
+          },
+          "search_volume_trend": {
+            "monthly": 40,
+            "quarterly": 40,
+            "yearly": 133
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-03-06 23:57:35 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "how to delete fb account meta",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-11 05:06:31 +00:00",
+          "search_volume": 10,
+          "categories": [
+            10007,
+            11496,
+            13418
+          ],
+          "monthly_searches": {
+            "2025-07": 10,
+            "2025-06": 10,
+            "2025-03": 10,
+            "2025-02": 10,
+            "2025-01": 10,
+            "2024-12": 10,
+            "2024-11": 10
+          },
+          "search_volume_trend": {
+            "yearly": -100
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2024-08-21 08:56:03 +00:00"
+        }
+      },
+      {
+        "se_type": "google",
+        "keyword": "social liker for fb",
+        "location_code": 2356,
+        "language_code": "en",
+        "keyword_info": {
+          "se_type": "google",
+          "last_updated_time": "2025-11-08 01:26:37 +00:00",
+          "search_volume": 10,
+          "categories": [
+            10007,
+            11496,
+            13418
+          ],
+          "monthly_searches": {
+            "2025-03": 10,
+            "2025-02": 10,
+            "2024-12": 10
+          },
+          "search_volume_trend": {
+            "yearly": -100
+          }
+        },
+        "keyword_properties": {
+          "se_type": "google",
+          "synonym_clustering_algorithm": "text_processing",
+          "detected_language": "en"
+        },
+        "search_intent_info": {
+          "se_type": "google",
+          "main_intent": "informational",
+          "last_updated_time": "2023-03-04 19:03:32 +00:00"
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en",
+    "limit": 10
+  },
+  "token_count": 3962
+}

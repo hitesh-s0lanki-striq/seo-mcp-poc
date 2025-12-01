@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "tool_name": "on_page_lighthouse",
+    "timestamp": "2025-11-21 16:17:49",
+    "lighthouse_version": "12.2.0",
+    "requested_url": "https://strique.io/",
+    "final_url": "https://www.strique.io/",
+    "fetch_time": "2025-11-21T10:47:20.868Z",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/132.0.0.0 Safari/537.36",
+    "run_warnings": [
+      "The page may not be loading as expected because your test URL (https://strique.io/) was redirected to https://www.strique.io/. Try testing the second URL directly."
+    ]
+  },
+  "scores": {
+    "performance": 0.46,
+    "seo": 1,
+    "accessibility": 0.96,
+    "best_practices": 0.7,
+    "pwa": null
+  },
+  "core_web_vitals": {
+    "fcp_ms": 1821.317,
+    "lcp_ms": 2284.16,
+    "speed_index_ms": 3037.974,
+    "tbt_ms": 966,
+    "cls": 0.01,
+    "tti_ms": 4605.053,
+    "max_potential_fid_ms": 495,
+    "server_response_time_ms": 238.093
+  },
+  "technical_seo": {
+    "https": true,
+    "viewport_meta": true,
+    "http_status_ok": true,
+    "has_meta_description": true,
+    "font_size_ok": null,
+    "link_text_ok": true,
+    "crawlable_anchors_ok": true,
+    "page_crawlable": true,
+    "robots_txt_valid": true,
+    "hreflang_valid": true,
+    "canonical_status": "notApplicable",
+    "structured_data_status": "manual"
+  },
+  "important_audits": [
+    {
+      "id": "canonical",
+      "title": "Document has a valid `rel=canonical`",
+      "score": null,
+      "score_display_mode": "notApplicable",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "crawlable-anchors",
+      "title": "Links are crawlable",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "score": 1,
+      "score_display_mode": "numeric",
+      "display_value": "0.01",
+      "numeric_value": 0.01,
+      "numeric_unit": "unitless"
+    },
+    {
+      "id": "errors-in-console",
+      "title": "Browser errors were logged to the console",
+      "score": null,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.37,
+      "score_display_mode": "numeric",
+      "display_value": "1.8\u00a0s",
+      "numeric_value": 1821.317,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "font-size",
+      "title": "Document uses legible font sizes",
+      "score": null,
+      "score_display_mode": "notApplicable",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "hreflang",
+      "title": "Document has a valid `hreflang`",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "http-status-code",
+      "title": "Page has successful HTTP status code",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "interactive",
+      "title": "Time to Interactive",
+      "score": 0.48,
+      "score_display_mode": "numeric",
+      "display_value": "4.6\u00a0s",
+      "numeric_value": 4605.053,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "is-crawlable",
+      "title": "Page isn\u2019t blocked from indexing",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "is-on-https",
+      "title": "Uses HTTPS",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.53,
+      "score_display_mode": "numeric",
+      "display_value": "2.3\u00a0s",
+      "numeric_value": 2284.16,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "link-text",
+      "title": "Links have descriptive text",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "max-potential-fid",
+      "title": "Max Potential First Input Delay",
+      "score": 0.09,
+      "score_display_mode": "numeric",
+      "display_value": "500\u00a0ms",
+      "numeric_value": 495,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "meta-description",
+      "title": "Document has a meta description",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "redirects",
+      "title": "Avoid multiple page redirects",
+      "score": null,
+      "score_display_mode": "metricSavings",
+      "display_value": "Potential savings of 420\u00a0ms",
+      "numeric_value": 415.12,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "robots-txt",
+      "title": "robots.txt is valid",
+      "score": 1,
+      "score_display_mode": "binary",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "server-response-time",
+      "title": "Initial server response time was short",
+      "score": 1,
+      "score_display_mode": "informative",
+      "display_value": "Root document took 240\u00a0ms",
+      "numeric_value": 238.093,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "score": 0.26,
+      "score_display_mode": "numeric",
+      "display_value": "3.0\u00a0s",
+      "numeric_value": 3037.974,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "structured-data",
+      "title": "Structured data is valid",
+      "score": null,
+      "score_display_mode": "manual",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    },
+    {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "score": 0.06,
+      "score_display_mode": "numeric",
+      "display_value": "970\u00a0ms",
+      "numeric_value": 966,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "uses-http2",
+      "title": "Use HTTP/2",
+      "score": 1,
+      "score_display_mode": "metricSavings",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": "millisecond"
+    },
+    {
+      "id": "viewport",
+      "title": "Has a `<meta name=\"viewport\">` tag with `width` or `initial-scale`",
+      "score": 1,
+      "score_display_mode": "metricSavings",
+      "display_value": null,
+      "numeric_value": null,
+      "numeric_unit": null
+    }
+  ],
+  "console_errors": [
+    {
+      "source": "network",
+      "description": "Failed to load resource: the server responded with a status of 401 ()",
+      "url": "https://track-eu.customer.io/events/page.gif?name=https%3A%2F%2Fwww.strique.io%2F&data%5Bwidth%5D=1350&data%5Bheight%5D=940&c=&s=971babdf-8bd7-ffed-d047-d847995dad11&site_id=9763e81c7420a38625ca&timestamp=1763722043683"
+    }
+  ]
+}

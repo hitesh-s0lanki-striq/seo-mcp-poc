@@ -1,0 +1,117 @@
+{
+  "tool_name": "dataforseo_labs_google_domain_rank_overview",
+  "timestamp": "2025-11-21 16:31:51",
+  "data": {
+    "id": "11211301-1233-0388-0000-b43b816d102a",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "location_code": 2356,
+        "language_code": "en",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 2,
+            "pos_51_60": 2,
+            "pos_61_70": 5,
+            "pos_71_80": 6,
+            "pos_81_90": 5,
+            "etv": 664.062,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 13,
+            "is_up": 1,
+            "is_down": 10
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en"
+  },
+  "token_count": 296
+}
+{
+  "tool_name": "dataforseo_labs_google_domain_rank_overview",
+  "timestamp": "2025-12-01 13:40:12",
+  "data": {
+    "id": "12011010-1210-0388-0000-c07892066e84",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "location_code": 2356,
+        "language_code": "en",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 664.944,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 9
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en"
+  },
+  "token_count": 293
+}
+{
+  "tool_name": "dataforseo_labs_google_domain_rank_overview",
+  "timestamp": "2025-12-01 16:20:13",
+  "data": {
+    "id": "12011250-1210-0388-0000-f6bb84e21d04",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "se_type": "google",
+        "location_code": 2356,
+        "language_code": "en",
+        "metrics": {
+          "organic": {
+            "pos_21_30": 2,
+            "pos_31_40": 2,
+            "pos_41_50": 1,
+            "pos_51_60": 2,
+            "pos_61_70": 4,
+            "pos_71_80": 7,
+            "pos_81_90": 6,
+            "etv": 664.944,
+            "count": 24,
+            "estimated_paid_traffic_cost": 61.385,
+            "is_new": 14,
+            "is_up": 1,
+            "is_down": 9
+          }
+        }
+      }
+    ]
+  },
+  "input": {
+    "target": "strique.io",
+    "location_name": "India",
+    "language_code": "en"
+  },
+  "token_count": 296
+}

@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
 
+from src.middleware.log_llm_usage import log_llm_usage
 class SEOAgent:
     def __init__(self, llm: ChatOpenAI):
         self.name = "SEO Agent"
@@ -138,7 +139,7 @@ class SEOAgent:
                 model=self.model,
                 tools=tools,
                 system_prompt=self.description,
-                middleware=[handle_tool_errors]
+                middleware=[handle_tool_errors, log_llm_usage]
             )
         
         return self._agent
